@@ -19,3 +19,6 @@
 .hero #job {
   color: #666666;
 }
+.hero #links a:hover {
+  text-decoration: none;
+}

@@ -6,4 +6,9 @@
     & #job{
         color:$dimmed_white;
     }
+    & #links a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
 }
