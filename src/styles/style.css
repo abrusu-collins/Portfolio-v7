@@ -1,5 +1,12 @@
+@font-face {
+  font-family: Oxygen;
+  src: url("../font/OxygenMono-Regular.55d89e42.woff2");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1d1f21;
+  font-family: Oxygen;
+  color: #c9cacc;
 }
