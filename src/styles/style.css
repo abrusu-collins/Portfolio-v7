@@ -6,7 +6,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 14px;
+  font-family: 400;
   background-color: #1d1f21;
   font-family: Oxygen;
   color: #c9cacc;
+}
+
+.hero #name {
+  color: #2bbc8a;
+}
+.hero #job {
+  color: #666666;
 }

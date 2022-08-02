@@ -1,0 +1,9 @@
+.hero{
+    & #name{
+    color:$standout_color;
+   
+    }
+    & #job{
+        color:$dimmed_white;
+    }
+}
