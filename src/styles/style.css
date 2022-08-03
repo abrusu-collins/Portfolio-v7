@@ -18,6 +18,13 @@ body {
   margin: 100px 200px;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+}
+.hero img {
+  width: 20%;
+}
 .hero #name {
   color: #96ff81;
   font-size: 28px;
