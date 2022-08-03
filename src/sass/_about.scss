@@ -1,0 +1,12 @@
+.about{
+    & h1{
+        color:$standout_color;
+    }
+    & #about{
+        & p{
+            & span{
+                color:$standout_color;
+            }
+        }
+    }
+}

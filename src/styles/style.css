@@ -22,3 +22,10 @@
 .hero #links a:hover {
   text-decoration: none;
 }
+
+.about h1 {
+  color: #2bbc8a;
+}
+.about #about p span {
+  color: #2bbc8a;
+}
