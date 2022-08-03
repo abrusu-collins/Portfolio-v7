@@ -5,4 +5,15 @@
         color: $standout_color;
         margin-bottom: 10px;
     }
+    & .projecttitle{
+        color:white;
+        font-weight: 600;
+    }
+    & .wordbox{
+        display: flex;
+        align-items: center;
+        & img{
+            width:50%;
+        }
+    }
 }

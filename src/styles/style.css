@@ -80,6 +80,17 @@ body {
   color: #96ff81;
   margin-bottom: 10px;
 }
+.projects .projecttitle {
+  color: white;
+  font-weight: 600;
+}
+.projects .wordbox {
+  display: flex;
+  align-items: center;
+}
+.projects .wordbox img {
+  width: 50%;
+}
 
 .experience {
   margin-top: 50px;
