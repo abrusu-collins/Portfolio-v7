@@ -1,0 +1,15 @@
+.experience{
+    margin-top: 50px;
+    & .header{
+        font-size: 21px;
+        color:$standout_color;
+        margin-bottom: 10px;
+    }
+    & .jobtitle{
+        color:white;
+        font-weight: 600;
+    }
+    & .intern, .freelance{
+        margin-top: 9px;
+    }
+}

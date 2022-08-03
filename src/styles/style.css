@@ -63,3 +63,19 @@ body {
   color: white;
   font-weight: 600;
 }
+
+.experience {
+  margin-top: 50px;
+}
+.experience .header {
+  font-size: 21px;
+  color: #2bbc8a;
+  margin-bottom: 10px;
+}
+.experience .jobtitle {
+  color: white;
+  font-weight: 600;
+}
+.experience .intern, .experience .freelance {
+  margin-top: 9px;
+}
