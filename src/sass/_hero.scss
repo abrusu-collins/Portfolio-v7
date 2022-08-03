@@ -1,12 +1,16 @@
 .hero{
     & #name{
     color:$standout_color;
+    font-size: 28px;
    
     }
     & #job{
         color:$dimmed_white;
+        font-size: 16.8px;
+        margin:10px auto;
     }
     & #links a{
+        margin-right: 10px;
         &:hover{
             text-decoration: none;
         }

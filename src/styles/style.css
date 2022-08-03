@@ -11,21 +11,40 @@
   background-color: #1d1f21;
   font-family: Oxygen;
   color: #c9cacc;
+  line-height: 1.725;
+}
+
+body {
+  margin: 100px 200px;
 }
 
 .hero #name {
   color: #2bbc8a;
+  font-size: 28px;
 }
 .hero #job {
   color: #666666;
+  font-size: 16.8px;
+  margin: 10px auto;
+}
+.hero #links a {
+  margin-right: 10px;
 }
 .hero #links a:hover {
   text-decoration: none;
 }
 
+.about {
+  margin-top: 50px;
+}
 .about h1 {
   color: #2bbc8a;
+  font-size: 21px;
 }
 .about #about p span {
   color: #2bbc8a;
+}
+
+.skills {
+  margin-top: 50px;
 }

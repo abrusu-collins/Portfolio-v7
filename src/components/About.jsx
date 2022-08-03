@@ -17,8 +17,10 @@ function About() {
         <p>
          <span> I'm currently job hunting</span>, I work well with persons of different backgrounds and personalities
           in both remote and physical work environments.
-          Send me an email if you have any open roles for me. Thanks.
         </p>
+        <p> 
+           Kindly send me an email if you have any open roles for me. 
+            </p>
       </div>
     </div>
   );
