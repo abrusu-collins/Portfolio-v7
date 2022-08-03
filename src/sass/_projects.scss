@@ -9,11 +9,26 @@
         color:white;
         font-weight: 600;
     }
-    & .wordbox{
+    & .project{
         display: flex;
         align-items: center;
         & img{
             width:50%;
+        }
+        & .projectwords{
+            & .description{
+                margin:15px auto;
+                
+            }
+            & a{
+                &:hover{
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+            & #website{
+                margin-right: 20px;
+            }
         }
     }
 }

@@ -84,12 +84,22 @@ body {
   color: white;
   font-weight: 600;
 }
-.projects .wordbox {
+.projects .project {
   display: flex;
   align-items: center;
 }
-.projects .wordbox img {
+.projects .project img {
   width: 50%;
+}
+.projects .project .projectwords .description {
+  margin: 15px auto;
+}
+.projects .project .projectwords a:hover {
+  color: white;
+  text-decoration: none;
+}
+.projects .project .projectwords #website {
+  margin-right: 20px;
 }
 
 .experience {
