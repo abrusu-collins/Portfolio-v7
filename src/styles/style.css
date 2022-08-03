@@ -40,6 +40,7 @@ body {
 .about h1 {
   color: #2bbc8a;
   font-size: 21px;
+  margin-bottom: 10px;
 }
 .about #about p span {
   color: #2bbc8a;
@@ -47,4 +48,18 @@ body {
 
 .skills {
   margin-top: 50px;
+}
+.skills .skillshead {
+  color: #2bbc8a;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.skills .categories {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills p {
+  color: white;
+  font-weight: 600;
 }

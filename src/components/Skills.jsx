@@ -4,7 +4,7 @@ function Skills() {
             <h1 className="skillshead">Skills</h1>
             <div className="categories">
             <div className="langs">
-                <p>Languages, Frameworks and Libraries</p>
+             <p>Languages, Frameworks and Libraries</p>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
