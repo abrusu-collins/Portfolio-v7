@@ -6,7 +6,7 @@ function Skills() {
         <div className="langs">
           <p>Languages, Frameworks and Libraries</p>
           <ul>
-            <li>HTML</li>
+            <li> HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Bootstrap</li>
