@@ -9,7 +9,7 @@ function Hero() {
                 <a href="https://github.com/abrusu-collins">GitHub</a>
                 <a href="https://twitter.com/devSedem">Twitter</a>
                 <a href="https://www.linkedin.com/in/abrusu-collins-359a4416a/">LinkedIn</a>
-                <a href="mailto">Gmail</a>
+                <a href="mailto:snillochemingson@gmail.com">Gmail</a>
                 <a href="dd">Resume</a>
             </div>
             </div>
