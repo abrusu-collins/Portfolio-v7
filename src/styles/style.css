@@ -72,6 +72,15 @@ body {
   font-weight: 600;
 }
 
+.projects {
+  margin-top: 50px;
+}
+.projects .projecthead {
+  font-size: 21px;
+  color: #96ff81;
+  margin-bottom: 10px;
+}
+
 .experience {
   margin-top: 50px;
 }
