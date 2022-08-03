@@ -5,7 +5,7 @@ function Experience() {
       <div className="instructor">
         <p className="jobtitle">Front-End Development Instructor</p>
         <div className="datelocation">
-          <p>Kwame Nkrumah University of Science and Technology,Ghana</p>
+          <p>Kwame Nkrumah University of Science and Technology, Ghana</p>
           <p>Apr 2021 — May 2021</p>
           <ul>
             <li>
@@ -49,7 +49,7 @@ function Experience() {
               Redesigned and implemented some parts of the User Interface for
               the company's website, The new website's performance was way
               better than the first one and we also recorded an increase in
-              sales per week after launching
+              sales per week after launching.
             </li>
           </ul>
         </div>
