@@ -1,5 +1,6 @@
 import wb from "../img/wb_mockup.png";
 import ec from "../img/ec_mockup.png";
+import gi from "../img/gi_mockup.png";
 function Projects() {
   return (
     <div className="projects">
@@ -16,7 +17,7 @@ function Projects() {
           </p>
           <p>
             
-            Developed this web app using HTML, CSS, JavaScript, Bootstrap, Sass,
+            Developed this web app using HTML5, CSS3, JavaScript, Bootstrap, Sass,
             jQuery, express, node, and ejs.
           </p>
           </div>
@@ -52,18 +53,23 @@ week.
 
       <div className="project">
         <div className="projectwords">
-          <p className="projecttitle">WordBox</p>
+          <p className="projecttitle">Game Island</p>
           <div className="description">
           <p>
             
-            Built a web app that contains various tools for performing
-            operations on files and words. Some of the tools are Image Text
-            Extractor and PDF reader (PDF to Speech).
+          Developed a website that contains a collection of memory games.
+
+          </p>
+          <p>
+          Some of the games are Fast Fingers (a typing game that helps users increase their typing speed), Verbal Memory (a 
+game that tests how many words you can keep in your short-term memory), and Reaction Time (a game that measures 
+how fast you can react to change)
+
           </p>
           <p>
             
-            Developed this web app using HTML, CSS, JavaScript, Bootstrap, Sass,
-            jQuery, express, node, and ejs.
+          Built it using HTML5, CSS3, Sass, Bootstrap, and JavaScript.
+
           </p>
           </div>
           <div className="visitproject">
@@ -71,7 +77,7 @@ week.
             <a href="dd">Code</a>
           </div>
         </div>
-        <img src={wb} alt="wb_mockup" />
+        <img src={gi} alt="gi_mockup" />
       </div>
       
     </div>
