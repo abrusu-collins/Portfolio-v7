@@ -15,7 +15,7 @@ function About() {
           I have been on this journey since 2018 and I love how it's going.
         </p>
         <p>
-         <span> I'm currently job hunting</span>, I work well with persons with different backgrounds and personalities
+         <span> I'm currently job hunting</span>, I work well with persons of different backgrounds and personalities
           in both remote and physical work environments.
           Send me an email if you have any open roles for me. Thanks.
         </p>
