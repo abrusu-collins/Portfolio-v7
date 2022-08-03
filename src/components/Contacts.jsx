@@ -1,7 +1,7 @@
 function Contacts() {
     return (
         <div className="contacts">
-            <h1 className="contacts">Get In Touch</h1>
+            <h1 className="contacthead">Get In Touch</h1>
             <ul>
                 <li>Want to collaborate on a project?</li>
                 <li>Want me to work on a project for you?</li>

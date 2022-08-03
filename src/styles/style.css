@@ -116,3 +116,22 @@ body {
 .experience .intern, .experience .freelance {
   margin-top: 9px;
 }
+
+.contacts {
+  margin-top: 50px;
+}
+.contacts .contacthead {
+  font-size: 21px;
+  color: #96ff81;
+  margin-bottom: 10px;
+}
+.contacts ul {
+  margin-bottom: 10px;
+}
+.contacts .allcontacts a {
+  margin-right: 20px;
+}
+.contacts .allcontacts a:hover {
+  color: white;
+  text-decoration: none;
+}
