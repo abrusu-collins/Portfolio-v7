@@ -67,10 +67,10 @@ function Projects() {
             <p>Built it using HTML5, CSS3, Sass, Bootstrap, and JavaScript.</p>
           </div>
           <div className="visitproject">
-            <a href="dd" id="website">
+            <a href="https://game-island.netlify.app/" id="website">
               Website
             </a>
-            <a href="dd">Code</a>
+            <a href="https://github.com/abrusu-collins/Game-Island">Code</a>
           </div>
         </div>
         <img src={gi} alt="gi_mockup" />
