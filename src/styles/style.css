@@ -135,3 +135,12 @@ body {
   color: white;
   text-decoration: none;
 }
+
+.thanks {
+  margin-top: 50px;
+}
+.thanks .thankhead {
+  font-size: 21px;
+  color: #96ff81;
+  margin-bottom: 10px;
+}

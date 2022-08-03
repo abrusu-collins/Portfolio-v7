@@ -1,0 +1,8 @@
+.thanks{
+    margin-top: 50px;
+    & .thankhead{
+        font-size: 21px;
+        color: $standout_color;
+        margin-bottom: 10px;
+    }
+}

@@ -6,10 +6,10 @@ function Hero() {
             <h1 id="name">Collins Abrusu</h1>
             <h1 id="job">Front End Engineer</h1>
             <div id="links">
-                <a href="dd">GitHub</a>
-                <a href="dd">Twitter</a>
-                <a href="dd">LinkedIn</a>
-                <a href="dd">Gmail</a>
+                <a href="https://github.com/abrusu-collins">GitHub</a>
+                <a href="https://twitter.com/devSedem">Twitter</a>
+                <a href="https://www.linkedin.com/in/abrusu-collins-359a4416a/">LinkedIn</a>
+                <a href="mailto">Gmail</a>
                 <a href="dd">Resume</a>
             </div>
             </div>
