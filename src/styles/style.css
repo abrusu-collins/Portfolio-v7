@@ -19,7 +19,7 @@ body {
 }
 
 .hero #name {
-  color: #2bbc8a;
+  color: #96ff81;
   font-size: 28px;
 }
 .hero #job {
@@ -38,19 +38,19 @@ body {
   margin-top: 50px;
 }
 .about h1 {
-  color: #2bbc8a;
+  color: #96ff81;
   font-size: 21px;
   margin-bottom: 10px;
 }
 .about #about p span {
-  color: #2bbc8a;
+  color: #96ff81;
 }
 
 .skills {
   margin-top: 50px;
 }
 .skills .skillshead {
-  color: #2bbc8a;
+  color: #96ff81;
   font-size: 21px;
   margin-bottom: 10px;
 }
@@ -69,7 +69,7 @@ body {
 }
 .experience .header {
   font-size: 21px;
-  color: #2bbc8a;
+  color: #96ff81;
   margin-bottom: 10px;
 }
 .experience .jobtitle {
