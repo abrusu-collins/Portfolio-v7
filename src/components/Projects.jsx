@@ -42,13 +42,13 @@ function Projects() {
             <p>Developed this site using HTML5, CSS3, and JavaScript.</p>
           </div>
           <div className="visitproject">
-            <a href="dd" id="website">
+            <a href="https://edemcreatives.netlify.app/" id="website">
               Website
             </a>
-            <a href="dd">Code</a>
+            <a href="https://github.com/abrusu-collins/Edem-Creatives">Code</a>
           </div>
         </div>
-        <img src={ec} alt="wb_mockup" />
+        <img src={ec} alt="ec_mockup" />
       </div>
 
       <div className="project">
