@@ -1,4 +1,4 @@
-import avatar from "../img/avatar.webp"
+import avatar from "../img/avatar.webp";
 function Hero() {
     return ( 
         <div className="hero">
@@ -14,6 +14,7 @@ function Hero() {
             </div>
             </div>
            <img src={avatar} alt="avatar" />
+           
 
         </div>
      );
