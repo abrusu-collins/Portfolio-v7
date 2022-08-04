@@ -46,13 +46,16 @@
 }
 @media screen and (max-width: 350px) {
   .hero {
-    
-
     & img {
       width: 100%;
     }
   }
 }
+@media screen and (max-width: 336px) {
+    .hero {
+    
+    }
+  }
 //body responsiveness
 
 @media screen and (max-width: 1300px) {
