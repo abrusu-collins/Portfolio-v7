@@ -13,8 +13,8 @@ function Thanks() {
     <div className="thanks">
       <h1 className="thankhead">Thank You</h1>
       <p>
-        Thanks for visiting my Portfolio site, have a blessed {dayArray[dayNum]}
-        .
+        Thanks for visiting my Portfolio site, have a <span> blessed {dayArray[dayNum]}
+        .</span>
       </p>
     </div>
   );

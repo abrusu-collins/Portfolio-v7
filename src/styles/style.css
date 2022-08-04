@@ -144,3 +144,7 @@ body {
   color: #96ff81;
   margin-bottom: 10px;
 }
+.thanks p span {
+  font-weight: 600;
+  color: white;
+}
