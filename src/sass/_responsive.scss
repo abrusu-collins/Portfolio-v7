@@ -1,4 +1,21 @@
 //hero responsiveness
+@media screen and (max-width:960px) {
+    .hero{
+        & img{
+          width:25%;
+        }
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .hero{
+        & img{
+          width:30%;
+        }
+    }
+    
+}
 //body responsiveness
 
 @media screen and (max-width:1300px) {

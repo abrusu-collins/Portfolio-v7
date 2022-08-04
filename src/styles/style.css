@@ -149,6 +149,16 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 960px) {
+  .hero img {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero img {
+    width: 30%;
+  }
+}
 @media screen and (max-width: 1300px) {
   body {
     margin: 100px 150px 100px 150px;
