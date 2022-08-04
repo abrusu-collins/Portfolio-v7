@@ -31,10 +31,28 @@
 
 @media screen and (max-width: 500px) {
     .hero {
-        display: flex;
+       
         flex-direction: column;
       & img {
         width: 50%;
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .hero {
+       
+        flex-direction: column;
+      & img {
+        width: 60%;
+      }
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .hero {
+       
+        flex-direction: column;
+      & img {
+        width: 80%;
       }
     }
   }
@@ -160,6 +178,26 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+    .projects {
+      & .project {
+        & img {
+          width: 120%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 370px) {
+    .projects {
+      & .project {
+        & img {
+          width: 140%;
+        }
+      }
+    }
+  }
 
 //Work experience responsiveness
 //contacts responsiveness
