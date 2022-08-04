@@ -148,3 +148,34 @@ body {
   font-weight: 600;
   color: white;
 }
+
+@media screen and (max-width: 1300px) {
+  body {
+    margin: 100px 150px 100px 150px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body {
+    margin: 100px 100px 100px 100px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .skills .categories {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .skills .categories {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .skills .categories {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .projects .project img {
+    width: 50%;
+  }
+}
