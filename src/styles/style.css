@@ -194,3 +194,8 @@ body {
     width: 60%;
   }
 }
+@media screen and (max-width: 900px) {
+  .projects .project {
+    flex-direction: column;
+  }
+}

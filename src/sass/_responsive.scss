@@ -71,6 +71,14 @@
         }
     }
 }
+
+@media screen and (max-width:900px) {
+    .projects{
+        & .project{
+            flex-direction: column;
+        }
+    }
+}
 //Work experience responsiveness
 //contacts responsiveness
 //Thanks responsiveness
