@@ -1,159 +1,166 @@
 //hero responsiveness
-@media screen and (max-width:960px) {
-    .hero{
-        & img{
-          width:25%;
-        }
+@media screen and (max-width: 960px) {
+  .hero {
+    & img {
+      width: 25%;
     }
-    
+  }
 }
 
-@media screen and (max-width:900px) {
-    .hero{
-        & img{
-          width:30%;
-        }
+@media screen and (max-width: 900px) {
+  .hero {
+    & img {
+      width: 30%;
     }
-    
+  }
 }
-@media screen and (max-width:650px) {
-    .hero{
-        & img{
-          width:40%;
-        }
+@media screen and (max-width: 650px) {
+  .hero {
+    & img {
+      width: 40%;
     }
-    
+  }
 }
-@media screen and (max-width:550px) {
-    .hero{
-        & img{
-          width:45%;
-        }
+@media screen and (max-width: 550px) {
+  .hero {
+    & img {
+      width: 45%;
     }
-    
+  }
 }
+
+@media screen and (max-width: 500px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+      & img {
+        width: 50%;
+      }
+    }
+  }
 //body responsiveness
 
-@media screen and (max-width:1300px) {
-    body{
-        margin: 100px 150px 100px 150px;
-    }
+@media screen and (max-width: 1300px) {
+  body {
+    margin: 100px 150px 100px 150px;
+  }
 }
 
-@media screen and (max-width:1250px) {
-    body{
-        margin: 100px 100px 100px 100px;
-    }
+@media screen and (max-width: 1250px) {
+  body {
+    margin: 100px 100px 100px 100px;
+  }
 }
 
-@media screen and (max-width:1100px) {
-    body{
-        margin: 100px 70px 100px 70px;
-    }
+@media screen and (max-width: 1100px) {
+  body {
+    margin: 100px 70px 100px 70px;
+  }
 }
 
-@media screen and (max-width:550px) {
-    body{
-        margin: 80px 50px 80px 50px;
-    }
+@media screen and (max-width: 550px) {
+  body {
+    margin: 80px 50px 80px 50px;
+  }
 }
 //about responsiveness
 //skills responsivness
-@media screen and (max-width:1350px){
-    .skills{
-        & .categories{
-            width: 80%;
-        }
-    }  
+@media screen and (max-width: 1350px) {
+  .skills {
+    & .categories {
+      width: 80%;
+    }
+  }
 }
 
-@media screen and (max-width:1230px){
-    .skills{
-        & .categories{
-            width: 90%;
-        }
-    }  
+@media screen and (max-width: 1230px) {
+  .skills {
+    & .categories {
+      width: 90%;
+    }
+  }
 }
 
-@media screen and (max-width:1120px){
-    .skills{
-        & .categories{
-            width: 100%;
-        }
-    }  
+@media screen and (max-width: 1120px) {
+  .skills {
+    & .categories {
+      width: 100%;
+    }
+  }
 }
 
-@media screen and (max-width:800px){
-    .skills{
-        & .categories{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-gap: 3rem;
-        }
-    }  
+@media screen and (max-width: 800px) {
+  .skills {
+    & .categories {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem;
+    }
+  }
 }
 
 //projects responsiveness
-@media screen and (max-width:960px) {
-    .projects{
-        & .project{
-            & img{
-                width:60%;
-            }
-        }
+@media screen and (max-width: 960px) {
+  .projects {
+    & .project {
+      & img {
+        width: 60%;
+      }
     }
+  }
 }
 
-@media screen and (max-width:900px) {
-    .projects{
-        & .projecthead{
-            margin-bottom: 10px;
-        }
-        & .project{
-            flex-direction: column;
-        }
+@media screen and (max-width: 900px) {
+  .projects {
+    & .projecthead {
+      margin-bottom: 10px;
     }
+    & .project {
+      flex-direction: column;
+    }
+  }
 }
 
-@media screen and (max-width:800px) {
-    .projects{
-        & .project{
-            & img{
-                width:70%;
-            }
-        }
+@media screen and (max-width: 800px) {
+  .projects {
+    & .project {
+      & img {
+        width: 70%;
+      }
     }
+  }
 }
 
-@media screen and (max-width:720px) {
-    .projects{
-        & .project{
-            & img{
-                width:80%;
-            }
-        }
+@media screen and (max-width: 720px) {
+  .projects {
+    & .project {
+      & img {
+        width: 80%;
+      }
     }
+  }
 }
 
-@media screen and (max-width:650px) {
-    .projects{
-        & .project{
-            & img{
-                width:90%;
-            }
-        }
+@media screen and (max-width: 650px) {
+  .projects {
+    & .project {
+      & img {
+        width: 90%;
+      }
     }
+  }
 }
 
-@media screen and (max-width:550px) {
-    .projects{
-        & .project{
-            & img{
-                width:100%;
-            }
-        }
+@media screen and (max-width: 550px) {
+  .projects {
+    & .project {
+      & img {
+        width: 100%;
+      }
     }
+  }
 }
+
 //Work experience responsiveness
 //contacts responsiveness
 //Thanks responsiveness
