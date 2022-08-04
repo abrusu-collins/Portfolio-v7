@@ -184,7 +184,7 @@ body {
 }
 @media screen and (max-width: 350px) {
   .hero img {
-    width: 80%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1300px) {
