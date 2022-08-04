@@ -61,6 +61,16 @@
     }  
 }
 
+@media screen and (max-width:800px){
+    .skills{
+        & .categories{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 3rem;
+        }
+    }  
+}
+
 //projects responsiveness
 @media screen and (max-width:960px) {
     .projects{
@@ -74,8 +84,31 @@
 
 @media screen and (max-width:900px) {
     .projects{
+        & .projecthead{
+            margin-bottom: 10px;
+        }
         & .project{
             flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .projects{
+        & .project{
+            & img{
+                width:70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:720px) {
+    .projects{
+        & .project{
+            & img{
+                width:80%;
+            }
         }
     }
 }
