@@ -30,32 +30,27 @@
 }
 
 @media screen and (max-width: 500px) {
-    .hero {
-       
-        flex-direction: column;
-      & img {
-        width: 50%;
-      }
+  .hero {
+    flex-direction: column;
+    & img {
+      width: 50%;
     }
   }
-  @media screen and (max-width: 400px) {
-    .hero {
-       
-        flex-direction: column;
-      & img {
-        width: 60%;
-      }
+}
+@media screen and (max-width: 400px) {
+  .hero {
+    & img {
+      width: 60%;
     }
   }
-  @media screen and (max-width: 350px) {
-    .hero {
-       
-        flex-direction: column;
-      & img {
-        width: 80%;
-      }
+}
+@media screen and (max-width: 350px) {
+  .hero {
+    & img {
+      width: 80%;
     }
   }
+}
 //body responsiveness
 
 @media screen and (max-width: 1300px) {
@@ -180,24 +175,24 @@
 }
 
 @media screen and (max-width: 450px) {
-    .projects {
-      & .project {
-        & img {
-          width: 120%;
-        }
+  .projects {
+    & .project {
+      & img {
+        width: 120%;
       }
     }
   }
+}
 
-  @media screen and (max-width: 370px) {
-    .projects {
-      & .project {
-        & img {
-          width: 140%;
-        }
+@media screen and (max-width: 370px) {
+  .projects {
+    & .project {
+      & img {
+        width: 140%;
       }
     }
   }
+}
 
 //Work experience responsiveness
 //contacts responsiveness
