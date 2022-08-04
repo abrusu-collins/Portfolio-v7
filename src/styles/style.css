@@ -21,6 +21,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  overflow: visible;
 }
 .hero img {
   width: 20%;
