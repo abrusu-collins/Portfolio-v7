@@ -159,6 +159,11 @@ body {
     margin: 100px 100px 100px 100px;
   }
 }
+@media screen and (max-width: 1100px) {
+  body {
+    margin: 100px 70px 100px 70px;
+  }
+}
 @media screen and (max-width: 1350px) {
   .skills .categories {
     width: 80%;
@@ -174,8 +179,8 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 960px) {
   .projects .project img {
-    width: 50%;
+    width: 60%;
   }
 }
