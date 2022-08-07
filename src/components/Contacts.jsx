@@ -9,10 +9,10 @@ function Contacts() {
         <li>Or you just wanna chat about Development.</li>
       </ul>
       <div className="allcontacts">
-        <a href="dd">Schedule a meeting</a>
-        <a href="dd">Send Mail</a>
-        <a href="dd">Twitter</a>
-        <a href="dd">LinkedIn</a>
+        <a href="https://calendly.com/snillochemingson/30min">Schedule a meeting</a>
+        <a href="mailto:snillochemingson@gmail.com">Send Mail</a>
+        <a href="https://twitter.com/devSedem">Twitter</a>
+        <a href="https://www.linkedin.com/in/abrusu-collins-359a4416a/">LinkedIn</a>
       </div>
     </div>
   );
