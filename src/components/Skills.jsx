@@ -26,8 +26,8 @@ function Skills() {
           <p>Platforms</p>
           <ul>
             <li>GitHub</li>
-            <li>AWS</li>
-            <li>GCP</li>
+            {/* <li>AWS</li>
+            <li>GCP</li> */}
             <li>Heroku</li>
             <li>Netlify</li>
             <li>Vercel</li>
