@@ -12,7 +12,7 @@ function Hero() {
             LinkedIn
           </a>
           <a href="mailto:snillochemingson@gmail.com">Gmail</a>
-          <a href="https://drive.google.com/file/d/1qDvPhI9U5kDiBDN_UW_oQQyTiOmiYpmk/view?usp=sharing">Resume</a>
+          {/* <a href="https://drive.google.com/file/d/1qDvPhI9U5kDiBDN_UW_oQQyTiOmiYpmk/view?usp=sharing">Resume</a> */}
         </div>
       </div>
       <img src={avatar} alt="avatar" />
