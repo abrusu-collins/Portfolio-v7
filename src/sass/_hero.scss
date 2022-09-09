@@ -18,6 +18,8 @@
     }
     & #links a{
         margin-right: 10px;
+        background-color: $standout_color;
+        color:black;
        
         &:hover{
             text-decoration: none;

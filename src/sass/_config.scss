@@ -28,3 +28,12 @@ $dimmed_white:#666666;
 body{
     margin:100px 200px;
 }
+a{
+    background-color: $standout_color;
+    color:black;
+    text-decoration: none;
+    display:inline-block;
+    padding:10px 15px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
