@@ -1,6 +1,7 @@
 
 $background:#1d1f21;
 $standout_color: #96ff81;
+$deep_green:#1dbf73;
 $light_white:#c9cacc;
 $dimmed_white:#666666;
 
@@ -36,4 +37,8 @@ a{
     padding:10px 15px;
     border-radius: 4px;
     margin-top: 5px;
+    &:hover{
+        background-color: $deep_green;
+        color:white;
+    }
 }
