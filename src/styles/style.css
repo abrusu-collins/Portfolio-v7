@@ -51,12 +51,6 @@ a {
 }
 .hero #links a {
   margin-right: 10px;
-  background-color: #96ff81;
-  color: black;
-}
-.hero #links a:hover {
-  text-decoration: none;
-  color: white;
 }
 
 .about {
@@ -110,10 +104,6 @@ a {
 .projects .project .projectwords .description {
   margin: 15px auto;
 }
-.projects .project .projectwords a:hover {
-  color: white;
-  text-decoration: none;
-}
 .projects .project .projectwords #website {
   margin-right: 20px;
 }
@@ -147,10 +137,6 @@ a {
 }
 .contacts .allcontacts a {
   margin-right: 20px;
-}
-.contacts .allcontacts a:hover {
-  color: white;
-  text-decoration: none;
 }
 
 .thanks {
