@@ -124,7 +124,8 @@ a:hover {
   color: white;
   font-weight: 600;
 }
-.experience .intern, .experience .freelance {
+.experience .intern,
+.experience .freelance {
   margin-top: 9px;
 }
 

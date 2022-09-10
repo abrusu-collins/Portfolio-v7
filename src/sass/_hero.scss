@@ -1,22 +1,21 @@
-.hero{
-    display: flex;
-    align-items: center;
-    // justify-content: center;
-    overflow: visible;
-    & img{
-        width:20%;
-    }
-    & #name{
-    color:$standout_color;
+.hero {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  overflow: visible;
+  & img {
+    width: 20%;
+  }
+  & #name {
+    color: $standout_color;
     font-size: 28px;
-   
-    }
-    & #job{
-        color:white;
-        font-size: 16.8px;
-        margin:10px auto;
-    }
-    & #links a{
-        margin-right: 10px; 
-    }
+  }
+  & #job {
+    color: white;
+    font-size: 16.8px;
+    margin: 10px auto;
+  }
+  & #links a {
+    margin-right: 10px;
+  }
 }

@@ -1,44 +1,41 @@
-
-$background:#1d1f21;
+$background: #1d1f21;
 $standout_color: #96ff81;
-$deep_green:#1dbf73;
-$light_white:#c9cacc;
-$dimmed_white:#666666;
+$deep_green: #1dbf73;
+$light_white: #c9cacc;
+$dimmed_white: #666666;
 
 @font-face {
-    font-family: Oxygen;
-    src: url("../font/OxygenMono-Regular.55d89e42.woff2");
-    
+  font-family: Oxygen;
+  src: url("../font/OxygenMono-Regular.55d89e42.woff2");
 }
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: 400;
-    background-color: $background;
-    font-family: Oxygen;
-    color:$light_white;
-    line-height: 1.725;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 400;
+  background-color: $background;
+  font-family: Oxygen;
+  color: $light_white;
+  line-height: 1.725;
 }
-* ul li{
-    margin-left: 15px;
+* ul li {
+  margin-left: 15px;
 }
 
-body{
-    margin:100px 200px;
+body {
+  margin: 100px 200px;
 }
-a{
-    background-color: $standout_color;
-    color:black;
-    text-decoration: none;
-    display:inline-block;
-    padding:10px 15px;
-    border-radius: 4px;
-    margin-top: 5px;
-    &:hover{
-        background-color: $deep_green;
-        color:white;
-    }
+a {
+  background-color: $standout_color;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 5px;
+  &:hover {
+    background-color: $deep_green;
+    color: white;
+  }
 }

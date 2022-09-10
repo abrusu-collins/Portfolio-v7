@@ -1,15 +1,15 @@
-.contacts{
-    margin-top: 50px;
-    & .contacthead{
-        font-size: 21px;
-        color:$standout_color;
-        margin-bottom: 10px;
-    }
+.contacts {
+  margin-top: 50px;
+  & .contacthead {
+    font-size: 21px;
+    color: $standout_color;
+    margin-bottom: 10px;
+  }
 
-    & ul{
-        margin-bottom: 10px;
-    }
-    & .allcontacts a{
-        margin-right: 20px;
-    }
+  & ul {
+    margin-bottom: 10px;
+  }
+  & .allcontacts a {
+    margin-right: 20px;
+  }
 }
