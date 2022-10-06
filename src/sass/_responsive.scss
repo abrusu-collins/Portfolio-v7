@@ -197,4 +197,22 @@
 
 //Work experience responsiveness
 //contacts responsiveness
+
+@media screen and (max-width: 695px) {
+  .allcontacts {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .allcontacts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+  }
+}
 //Thanks responsiveness
