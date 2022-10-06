@@ -45,15 +45,38 @@
   }
 }
 
-@media screen and (max-width: 598px) {
+@media screen and (max-width: 571px) {
   .hero {
     & img {
-      width: 50%;
-      margin-bottom: -20px;
+      width: 60%;
+    }
+  }
+}
+@media screen and (max-width: 455px) {
+  .hero {
+    & img {
+      width: 70%;
+    }
+  }
+}
+@media screen and (max-width: 401px) {
+  .hero {
+    & img {
+      width: 80%;
     }
   }
 }
 
+@media screen and (max-width: 336px) {
+  .hero {
+    & img {
+      width: 90%;
+    }
+    & #name {
+      font-size: 25px;
+    }
+  }
+}
 //body responsiveness
 
 @media screen and (max-width: 1300px) {
