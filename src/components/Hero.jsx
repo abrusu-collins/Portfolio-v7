@@ -1,5 +1,7 @@
 import img1 from "../img/sedem.jfif";
-import img2 from "../img/sedem2.jpg";
+import twitter from "../img/twitter.png";
+import linkedin from "../img/linkedin.png";
+import github from "../img/github.png";
 function Hero() {
   return (
     <div className="hero">
@@ -12,9 +14,14 @@ function Hero() {
             nisi ad voluptas, quod obcaecati dolorum cupiditate repellat,
             assumenda voluptatem harum ipsum laudantium!
           </p>
-          <div className="socials"></div>
+          <div className="socials">
+          <img src={twitter} alt="" />
+          <img src={linkedin} alt="" />
+          <img src={github} alt="" />
+
+          </div>
         </div>
-        <img src={img1} alt="" />
+        <img className="sedem" src={img1} alt="" />
       </div>
     </div>
   );
