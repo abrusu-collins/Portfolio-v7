@@ -18,6 +18,26 @@ body {
   background-color: #0a0c10;
 }
 
+nav {
+  background-color: #12141a;
+  margin: 50px auto 0 auto;
+  width: 50%;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+}
+nav .home-btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
 .hero {
   display: flex;
   align-items: center;

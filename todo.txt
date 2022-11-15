@@ -1,8 +1,10 @@
 nabvar (registre)
+-Home
  -projects
  -skills
  -quotes
  -contacts
+ -blog
 hero ✨
 every topic got emoji✨
 skills(What I know) (emoji with title)✨
