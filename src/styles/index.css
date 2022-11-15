@@ -116,6 +116,11 @@ body {
   padding: 70px;
   border-radius: 20px;
 }
+.projects #projects .project-about .project-name {
+  font-family: SohneBold;
+  color: #c5c9d2;
+  font-size: 35px;
+}
 .projects #projects img {
   width: 100%;
 }

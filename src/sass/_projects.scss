@@ -16,6 +16,13 @@
         margin: 70px auto;
         padding: 70px;
         border-radius: 20px;
+        & .project-about{
+            & .project-name{
+                font-family:SohneBold;
+                color: $color_header;
+                font-size: 35px;
+            }
+        }
         & img{
             width: 100%;
         }
