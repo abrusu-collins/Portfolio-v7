@@ -135,3 +135,14 @@ body {
 .projects #projects img {
   width: 100%;
 }
+.projects .more {
+  text-align: center;
+}
+.projects .more a {
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 40px;
+  border-radius: 5px;
+}

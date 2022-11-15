@@ -24,7 +24,7 @@ function Projects() {
         <img src={img2} alt="" />
       </div>
       <div className="project2" id="projects">
-      <img src={img1} alt="" />
+        <img src={img1} alt="" />
         <div className="project-about">
           <p className="project-name">Antonio Fotografo📸</p>
           <p className="description">
@@ -56,7 +56,7 @@ function Projects() {
         <img src={img3} alt="" />
       </div>
       <div className="project4" id="projects">
-      <img src={img4} alt="" />
+        <img src={img4} alt="" />
         <div className="project-about">
           <p className="project-name">DevTech💻</p>
           <p className="description">
@@ -70,6 +70,9 @@ function Projects() {
             <a href="">Live Link</a>
           </div>
         </div>
+      </div>
+      <div className="more">
+        <a href="">View more projects</a>
       </div>
     </div>
   );

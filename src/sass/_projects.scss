@@ -40,4 +40,15 @@
             width: 100%;
         }
     }
+    & .more{
+        text-align: center;
+        & a{
+            text-decoration: none;
+            margin-right:30px;
+            background-color: $white;
+            color: $black;
+            padding: 10px 40px;
+            border-radius: 5px;
+        }
+    }
 }
