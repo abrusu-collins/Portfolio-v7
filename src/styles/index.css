@@ -121,6 +121,17 @@ body {
   color: #c5c9d2;
   font-size: 35px;
 }
+.projects #projects .project-about .description {
+  margin: 30px 0;
+}
+.projects #projects .project-about .project-links a {
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
 .projects #projects img {
   width: 100%;
 }
