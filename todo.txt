@@ -1,14 +1,8 @@
-nabvar (registre)
--Home
- -projects
- -skills
- -quotes
- -contacts
- -blog
+nabvar onclick events
 hero ✨
 every topic got emoji✨
 skills(What I know) (emoji with title)✨
 projects (Recent Works)
 contacts✨
-
+router
 AOS

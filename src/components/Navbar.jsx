@@ -5,8 +5,7 @@ function Navbar() {
             <a href="">Projects</a>
             <a href="">Skills</a>
             <a href="">Quotes</a>
-            <a href="">Bontacts</a>
-            <a href="">Blog</a>
+            <a href="">Contacts</a>
 
         </nav>
      );
