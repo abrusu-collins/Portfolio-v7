@@ -53,3 +53,18 @@ body {
   border-radius: 50%;
   margin: auto;
 }
+
+.skills {
+  margin: 100px auto 200px auto;
+  width: 80%;
+  padding: 70px;
+  border-radius: 20px;
+  background-color: #12141a;
+}
+.skills .skills-header {
+  font-family: SohneBold;
+  color: #c5c9d2;
+  font-size: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}

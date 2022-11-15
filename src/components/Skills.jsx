@@ -4,7 +4,7 @@ function Skills() {
             <p className="skills-header">What I know🛠️</p>
             <div className="skills-innner">
                 <div className="langs">
-                    <p className="title">Languages, Frameworks and Libraries</p>
+                    <p className="title">Languages, <br /> Frameworks <br /> and Libraries🚀</p>
                     <div className="the-skills">
                         <p>HTML5</p>
                         <p>CSS3</p>
@@ -20,7 +20,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="tools">
-                <p className="title">Tools</p>
+                <p className="title">Tools🚀</p>
                     <div className="the-skills">
                         <p>Git</p>
                         <p>VSCode</p>
@@ -30,7 +30,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="platforms">
-                <p className="title">Platforms</p>
+                <p className="title">Platforms🚀</p>
                     <div className="the-skills">
                         <p>GitHub</p>
                         <p>Heroku</p>
@@ -39,7 +39,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="soft">
-                <p className="title">Soft Skills</p>
+                <p className="title">Soft Skills🚀</p>
                     <div className="the-skills">
                         <p> Leadership</p>
                         <p>Writing</p>

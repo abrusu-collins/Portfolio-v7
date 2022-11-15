@@ -1,0 +1,14 @@
+.skills{
+    margin: 100px auto 200px auto;
+    width: 80%;
+    padding: 70px;
+    border-radius: 20px;
+    background-color: $dark_background2;
+    & .skills-header{
+        font-family:SohneBold;
+        color: $color_header;
+        font-size: 50px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+}
