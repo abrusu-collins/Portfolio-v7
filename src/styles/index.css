@@ -95,3 +95,13 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.projects {
+  margin: 100px auto 200px auto;
+}
+.projects .projects-title {
+  font-size: 50px;
+  font-family: SohneBold;
+  color: #c5c9d2;
+  text-align: center;
+}

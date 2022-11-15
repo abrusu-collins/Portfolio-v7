@@ -1,0 +1,9 @@
+.projects{
+    margin: 100px auto 200px auto;
+    & .projects-title{
+        font-size: 50px;
+        font-family: SohneBold;
+        color: $color_header;
+        text-align: center;
+    }
+}
