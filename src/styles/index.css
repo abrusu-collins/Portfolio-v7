@@ -151,10 +151,20 @@ body {
   margin: 100px auto 200px auto;
   background-color: #12141a;
   width: 80%;
+  padding: 70px;
+  border-radius: 20px;
 }
 .contacts .touch {
   font-size: 50px;
   font-family: SohneBold;
   color: #c5c9d2;
   text-align: center;
+  margin-bottom: 70px;
+}
+.contacts .socials {
+  text-align: center;
+}
+.contacts .socials img {
+  width: 5%;
+  margin-right: 70px;
 }

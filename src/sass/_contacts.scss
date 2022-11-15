@@ -2,10 +2,20 @@
     margin: 100px auto 200px auto;
     background-color: $dark_background2;
     width: 80%;
+    padding: 70px;
+    border-radius: 20px;
     & .touch{
         font-size: 50px;
         font-family: SohneBold;
         color: $color_header;
         text-align: center;
+        margin-bottom: 70px;
+        }
+        & .socials{
+            text-align: center;
+            & img{
+                width: 5%;
+                margin-right: 70px;
+            }
         }
 }
