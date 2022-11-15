@@ -6,4 +6,18 @@
         color: $color_header;
         text-align: center;
     }
+    & #projects{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+        align-items: center;
+        width: 80%;
+        background-color: $dark_background2;
+        margin: 70px auto;
+        padding: 70px;
+        border-radius: 20px;
+        & img{
+            width: 100%;
+        }
+    }
 }

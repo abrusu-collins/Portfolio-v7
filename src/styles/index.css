@@ -105,3 +105,17 @@ body {
   color: #c5c9d2;
   text-align: center;
 }
+.projects #projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  width: 80%;
+  background-color: #12141a;
+  margin: 70px auto;
+  padding: 70px;
+  border-radius: 20px;
+}
+.projects #projects img {
+  width: 100%;
+}
