@@ -1,0 +1,30 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0 200px 0;
+  & .hero-inner {
+    background-color: $dark_background2;
+    width: 80%;
+    place-items: center;
+    padding: 70px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
+    border-radius: 20px;
+    & .about {
+      & .name {
+        font-size: 50px;
+        font-family: SohneBold;
+        color: $color_header;
+      }
+    }
+    & img {
+      width: 100%;
+      height: 350px;
+      width: 350px;
+      border-radius: 50%;
+      margin: auto;
+    }
+  }
+}

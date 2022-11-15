@@ -9,17 +9,19 @@ $black:#000000;
 $white:#ffffff;
 
 @font-face {
-    font-family:SohneBold ;
+    font-family:SohneBold;
     src: url("../font/SohneBold.woff2");
 }
 @font-face {
-    font-family:SohneMono ;
+    font-family:SohneMono;
     src: url("../font/SohneMono.woff2");
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: $color_text;
+    font-family:SohneMono;
 }
 body{
     background-color: $dark_background1;
