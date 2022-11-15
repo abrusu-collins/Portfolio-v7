@@ -3,8 +3,10 @@ nabvar (registre)
  -skills
  -quotes
  -contacts
-hero
-every topic got emoji
-skills(What I know) (emoji with title)
+hero ✨
+every topic got emoji✨
+skills(What I know) (emoji with title)✨
 projects (Recent Works)
-contacts
+contacts✨
+
+AOS
