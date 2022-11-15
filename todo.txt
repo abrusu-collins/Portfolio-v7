@@ -1,0 +1,10 @@
+nabvar (registre)
+ -projects
+ -skills
+ -quotes
+ -contacts
+hero
+every topic got emoji
+skills(What I know) (emoji with title)
+projects (Recent Works)
+contacts
