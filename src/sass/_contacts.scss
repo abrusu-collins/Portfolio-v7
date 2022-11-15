@@ -1,0 +1,11 @@
+.contacts{
+    margin: 100px auto 200px auto;
+    background-color: $dark_background2;
+    width: 80%;
+    & .touch{
+        font-size: 50px;
+        font-family: SohneBold;
+        color: $color_header;
+        text-align: center;
+        }
+}
