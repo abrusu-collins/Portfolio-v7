@@ -14,7 +14,7 @@
     & .skills-innner{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-gap: 1rem;
+        grid-gap: 3rem;
         & >div{
             background-color: $dark_background3;
             padding: 30px;
@@ -28,6 +28,12 @@
                 font-size: 25px;
                 padding: 20px;
                 border-radius: 10px;
+                margin-bottom: 30px;
+            }
+            & .the-skills{
+                & p{
+                    margin-bottom: 20px;
+                }
             }
         }
         & .langs{

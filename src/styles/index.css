@@ -71,7 +71,7 @@ body {
 .skills .skills-innner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 .skills .skills-innner > div {
   background-color: #1a1c24;
@@ -86,6 +86,10 @@ body {
   font-size: 25px;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 30px;
+}
+.skills .skills-innner > div .the-skills p {
+  margin-bottom: 20px;
 }
 .skills .skills-innner .langs .the-skills {
   display: grid;
