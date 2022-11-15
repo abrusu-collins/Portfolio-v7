@@ -15,10 +15,9 @@ function Hero() {
             assumenda voluptatem harum ipsum laudantium!
           </p>
           <div className="socials">
-          <img src={twitter} alt="" />
-          <img src={linkedin} alt="" />
-          <img src={github} alt="" />
-
+            <a href=""><img src={twitter} alt="" /></a>
+            <a href=""><img src={linkedin} alt="" /></a>
+            <a href=""><img src={github} alt="" /></a>
           </div>
         </div>
         <img className="sedem" src={img1} alt="" />
