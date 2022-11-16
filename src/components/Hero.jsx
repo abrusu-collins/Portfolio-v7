@@ -9,10 +9,10 @@ function Hero() {
         <div className="about">
           <p className="name">Hi, I'm  Abrusu Collins</p>
           <p className="about">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
-            aperiam molestias explicabo eos beatae consequuntur ratione unde
-            nisi ad voluptas, quod obcaecati dolorum cupiditate repellat,
-            assumenda voluptatem harum ipsum laudantium!
+          I am a Front End Engineer based in Accra, Ghana.
+          I love developing softwares that run in your browser and I also love writing clean, effficient and elegant code.
+          I have been on this journey since 2018 and I love how it's going.
+          When I'm away from the screen, you'll catch me playing basketball 🏀 or listening to some good music🎶.
           </p>
           <div className="socials">
             <a href="https://twitter.com/devSedem"><img src={twitter} alt="" /></a>

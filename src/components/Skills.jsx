@@ -27,6 +27,7 @@ function Skills() {
                         <p>NPM</p>
                         <p>Yarn</p>
                         <p>Webpack</p>
+                        <p>Adobe Photoshop</p>
                     </div>
                 </div>
                 <div className="platforms">
