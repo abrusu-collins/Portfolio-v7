@@ -14,7 +14,7 @@ function Allprojects() {
         <div className="projects">
         <p className="projects-title">All Projects✨</p>
         <div className="project1" id="projects">
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Mawuli's Art🎨</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -31,7 +31,7 @@ function Allprojects() {
         </div>
         <div className="project2" id="projects">
           <img src={img1} alt="" />
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Antonio Fotografo📸</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -46,7 +46,7 @@ function Allprojects() {
           </div>
         </div>
         <div className="project3" id="projects">
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Hotelvivi🏨</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -63,7 +63,7 @@ function Allprojects() {
         </div>
         <div className="project4" id="projects">
           <img src={img4} alt="" />
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">DevTech💻</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -78,7 +78,7 @@ function Allprojects() {
           </div>
         </div>
         <div className="project5" id="projects">
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Blacko🎵</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -95,7 +95,7 @@ function Allprojects() {
         </div>
         <div className="project6" id="projects">
           <img src={img6} alt="" />
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Scordy Shots📸</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -110,7 +110,7 @@ function Allprojects() {
           </div>
         </div>
         <div className="project7" id="projects">
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Game Island🎮</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
@@ -127,7 +127,7 @@ function Allprojects() {
         </div>
         <div className="project8" id="projects">
           <img src={img8} alt="" />
-          <div className="project-about">
+          <div className="project-about" data-aos="zoom-in">
             <p className="project-name">WordBox🔠</p>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
