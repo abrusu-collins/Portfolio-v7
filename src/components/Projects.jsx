@@ -14,7 +14,7 @@ function Projects() {
   }, []);
   return (
     <div className="projects">
-      <p className="projects-title">Recent Works✨</p>
+      <p className="projects-title" id="projects-title">Recent Works✨</p>
         <div className="project-inner">
         <div className="project1" id="projects">
         <div className="project-about" data-aos="zoom-in">

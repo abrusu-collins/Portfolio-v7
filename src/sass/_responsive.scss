@@ -246,3 +246,29 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 366px) {
+    .skills{
+        padding:70px  10px;
+
+        & .skills-innner{
+            & >div{
+                width: 100%;
+                margin: auto;
+
+            }
+            & .langs{
+                & .the-skills{
+                    grid-template-columns: repeat(1,1fr);
+                }
+            }
+        }
+    }
+
+  }
+  @media screen and (max-width: 326px) {
+    .projects {
+        & #projects-title {
+          padding:0 30px;
+        }
+    }
+  }
