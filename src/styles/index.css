@@ -38,6 +38,12 @@ nav {
 }
 nav a {
   text-decoration: none;
+  padding: 10px 25px;
+}
+nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
 }
 
 .hero {
