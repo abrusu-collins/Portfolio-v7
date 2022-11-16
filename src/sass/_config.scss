@@ -27,3 +27,9 @@ $white:#ffffff;
 body{
     background-color: $dark_background1;
 }
+.active{
+    background-color: $white;
+    color: $black;
+    padding: 10px 25px;
+    border-radius: 5px;
+}

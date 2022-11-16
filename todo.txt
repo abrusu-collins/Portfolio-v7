@@ -2,7 +2,7 @@ nabvar onclick events
 hero ✨
 every topic got emoji✨
 skills(What I know) (emoji with title)✨
-projects (Recent Works)
+projects (Recent Works)✨
 contacts✨
-router
+router✨
 AOS
