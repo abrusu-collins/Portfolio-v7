@@ -142,7 +142,6 @@ function Allprojects() {
           </div>
         </div>
         <div className="more">
-          {/* <a href="/allprojects">View more projects</a> */}
           <p>&copy; {year} - All projects were developed by Abrusu Collins</p>
         </div>
       </div>
