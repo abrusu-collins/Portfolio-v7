@@ -305,3 +305,11 @@ nav a:hover {
     width: 90%;
   }
 }
+@media screen and (max-width: 626px) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    text-align: center;
+  }
+}

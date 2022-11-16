@@ -121,9 +121,9 @@
     & .hero-inner {
       & .about {
         & .socials {
-            & img{
-                width: 10%;
-            }
+          & img {
+            width: 10%;
+          }
         }
       }
     }
@@ -137,4 +137,15 @@
       }
     }
   }
+}
+@media screen and (max-width: 626px) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 551px) {
+    .skills{}
 }
