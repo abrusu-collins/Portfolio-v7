@@ -1,0 +1,19 @@
+nav{
+    background-color: $dark_background2;
+    margin: 50px auto 0 auto;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & a{
+        text-decoration: none;
+        padding: 10px 25px;
+        &:hover{
+            background-color: $white;
+            color: $black;
+            border-radius: 5px;
+        }
+    }
+}

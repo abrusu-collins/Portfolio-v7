@@ -1,22 +1,21 @@
-import "./styles/style.css";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Contacts from "./components/Contacts";
-import Thanks from "./components/Thanks";
+import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import "./styles/index.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Allprojects from "./components/Allprojects";
+
 
 function App() {
   return (
     <>
-    <Hero/>
-    <About/>
-    <Skills/>
-    <Projects/>
-    <Experience/>
-    <Contacts/>
-    <Thanks/>
+    <Router>
+    <Navbar/>
+    <Routes >
+      <Route path="/" element={<Home/>}/>
+      <Route path="/allprojects" element={<Allprojects/>}/>
+
+    </Routes>
+  </Router>
     </>
   );
 }
