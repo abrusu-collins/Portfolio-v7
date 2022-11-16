@@ -215,7 +215,7 @@ nav a:hover {
     width: 90%;
   }
 }
-@media screen and (max-width: 1301px) {
+@media screen and (max-width: 1251px) {
   nav {
     width: 50%;
   }
@@ -229,7 +229,10 @@ nav a:hover {
     width: 100%;
     height: 100%;
   }
-  .projects .project1, .projects .project3, .projects .project5, .projects .project7 {
+  .projects .project1,
+.projects .project3,
+.projects .project5,
+.projects .project7 {
     flex-direction: column-reverse !important;
     justify-content: start;
   }
@@ -241,5 +244,23 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     width: 90%;
+  }
+}
+@media screen and (max-width: 1071px) {
+  .hero {
+    text-align: center;
+  }
+  .hero .hero-inner {
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    text-align: center;
+  }
+  .projects .project-inner #projects .project-about .project-links {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+  }
+  .projects .project-inner #projects .project-about .project-links a {
+    margin: 20px 0;
   }
 }
