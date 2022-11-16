@@ -4,4 +4,6 @@ skills(What I know) (emoji with title)✨
 projects (Recent Works)✨
 contacts✨
 router✨
-AOS
+AOS✨
+All links
+responsiveness
