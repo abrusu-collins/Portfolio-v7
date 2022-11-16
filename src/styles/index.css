@@ -366,6 +366,10 @@ nav a:hover {
   }
   .contacts .socials img {
     margin: 0;
+    width: 15%;
+  }
+  .hero .hero-inner .about .socials img {
+    width: 15%;
   }
 }
 @media screen and (max-width: 432px) {
