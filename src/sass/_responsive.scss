@@ -176,6 +176,61 @@
   .skills {
     padding: 70px 30px;
   }
+  .projects {
+    & .more {
+      & a {
+        margin: auto;
+      }
+      & p {
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
 }
-@media screen and (max-width: 551px) {
+@media screen and (max-width: 531px) {
+  .hero {
+    & .hero-inner {
+      & .sedem {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 501px) {
+  .projects {
+    text-align: center;
+    & .project-inner {
+      grid-template-columns: 1fr;
+      & #projects {
+        & img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .hero {
+    & .hero-inner {
+      padding: 70px 40px;
+    }
+  }
+}
+@media screen and (max-width: 490px) {
+  .contacts {
+    & .socials {
+      & .linkedin {
+        margin: 0 30px;
+      }
+      & img {
+        margin: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 432px) {
+  nav {
+    width: 90%;
+  }
 }

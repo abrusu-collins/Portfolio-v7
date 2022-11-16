@@ -8,7 +8,7 @@ function Contacts() {
             <p className="touch">Get in touch🤙</p>
             <div className="socials">
             <a href=""><img src={twitter} alt="" /></a>
-            <a href=""><img src={linkedin} alt="" /></a>
+            <a className="linkedin" href=""><img src={linkedin} alt="" /></a>
             <a href=""><img src={github} alt="" /></a>
             </div>
         </div>
