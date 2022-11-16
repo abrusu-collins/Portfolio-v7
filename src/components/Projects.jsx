@@ -8,7 +8,9 @@ import img4 from "../img/devtech.png";
 
 function Projects() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 900
+    });
   }, []);
   return (
     <div className="projects">

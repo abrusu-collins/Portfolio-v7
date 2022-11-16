@@ -13,7 +13,9 @@ import img8 from "../img/wordbox.png";
 
 function Allprojects() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 900
+    });
   }, []);
     let year = new Date().getFullYear();
     return ( 
@@ -33,10 +35,10 @@ function Allprojects() {
               <a href="">Live Link</a>
             </div>
           </div>
-          <img src={img2} alt="" />
+          <img data-aos="zoom-out" src={img2} alt="" />
         </div>
         <div className="project2" id="projects">
-          <img src={img1} alt="" />
+          <img data-aos="zoom-out" src={img1} alt="" />
           <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Antonio Fotografo📸</p>
             <p className="description">
@@ -65,10 +67,10 @@ function Allprojects() {
               <a href="">Live Link</a>
             </div>
           </div>
-          <img src={img3} alt="" />
+          <img data-aos="zoom-out" src={img3} alt="" />
         </div>
         <div className="project4" id="projects">
-          <img src={img4} alt="" />
+          <img data-aos="zoom-out" src={img4} alt="" />
           <div className="project-about" data-aos="zoom-in">
             <p className="project-name">DevTech💻</p>
             <p className="description">
@@ -97,10 +99,10 @@ function Allprojects() {
               <a href="">Live Link</a>
             </div>
           </div>
-          <img src={img5} alt="" />
+          <img data-aos="zoom-out" src={img5} alt="" />
         </div>
         <div className="project6" id="projects">
-          <img src={img6} alt="" />
+          <img data-aos="zoom-out" src={img6} alt="" />
           <div className="project-about" data-aos="zoom-in">
             <p className="project-name">Scordy Shots📸</p>
             <p className="description">
@@ -129,10 +131,10 @@ function Allprojects() {
               <a href="">Live Link</a>
             </div>
           </div>
-          <img src={img7} alt="" />
+          <img data-aos="zoom-out" src={img7} alt="" />
         </div>
         <div className="project8" id="projects">
-          <img src={img8} alt="" />
+          <img data-aos="zoom-out" src={img8} alt="" />
           <div className="project-about" data-aos="zoom-in">
             <p className="project-name">WordBox🔠</p>
             <p className="description">
