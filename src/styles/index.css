@@ -142,7 +142,6 @@ nav a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   align-items: center;
-  justify-content: center;
   width: 80%;
   background-color: #12141a;
   margin: 70px auto;
@@ -200,4 +199,29 @@ nav a:hover {
 .contacts .socials img {
   width: 5%;
   margin-right: 70px;
+}
+
+@media screen and (max-width: 1301px) {
+  .hero .hero-inner {
+    width: 90%;
+  }
+  .projects #projects {
+    width: 90%;
+  }
+  .skills {
+    width: 90%;
+  }
+  .contacts {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1301px) {
+  nav {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1301px) {
+  nav {
+    width: 50%;
+  }
 }
