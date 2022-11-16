@@ -313,3 +313,8 @@ nav a:hover {
     text-align: center;
   }
 }
+@media screen and (max-width: 551px) {
+  .skills {
+    padding: 70px 30px;
+  }
+}
