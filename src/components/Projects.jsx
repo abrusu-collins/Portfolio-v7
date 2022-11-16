@@ -15,7 +15,8 @@ function Projects() {
   return (
     <div className="projects">
       <p className="projects-title">Recent Works✨</p>
-      <div className="project1" id="projects">
+        <div className="project-inner">
+        <div className="project1" id="projects">
         <div className="project-about" data-aos="zoom-in">
           <p className="project-name">Mawuli's Art🎨</p>
           <p className="description">
@@ -79,7 +80,8 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="more">
+        </div>
+        <div className="more">
         <a href="/allprojects">View all my projects</a>
       </div>
     </div>
