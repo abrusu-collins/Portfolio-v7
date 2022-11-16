@@ -25,8 +25,8 @@ function Projects() {
             temporibus?
           </p>
           <div className="project-links">
-            <a href="">View Code</a>
-            <a href="">Live Link</a>
+            <a href="https://github.com/abrusu-collins/Mawuli-s-art" target="blank">View Code</a>
+            <a href="https://mawulis-art.vercel.app/" target="blank">Live Link</a>
           </div>
         </div>
         <img data-aos="zoom-out" src={img2} alt="" />
@@ -42,8 +42,8 @@ function Projects() {
             temporibus?
           </p>
           <div className="project-links">
-            <a href="">View Code</a>
-            <a href="">Live Link</a>
+            <a href="https://github.com/abrusu-collins/Antonio">View Code</a>
+            <a href="https://antoniogargano.vercel.app/">Live Link</a>
           </div>
         </div>
       </div>
@@ -57,8 +57,8 @@ function Projects() {
             temporibus?
           </p>
           <div className="project-links">
-            <a href="">View Code</a>
-            <a href="">Live Link</a>
+            <a href="https://github.com/abrusu-collins/hotel-vivi">View Code</a>
+            <a href="https://hotelvivi.netlify.app/">Live Link</a>
           </div>
         </div>
         <img data-aos="zoom-out" src={img3} alt="" />
@@ -74,8 +74,8 @@ function Projects() {
             temporibus?
           </p>
           <div className="project-links">
-            <a href="">View Code</a>
-            <a href="">Live Link</a>
+            <a href="https://github.com/abrusu-collins/DevTech">View Code</a>
+            <a href="https://dev-tech.vercel.app/">Live Link</a>
           </div>
         </div>
       </div>
