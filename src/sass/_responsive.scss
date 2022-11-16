@@ -108,6 +108,32 @@
     width: 80%;
   }
 }
+@media screen and (max-width: 601px) {
+  .projects {
+    & .projects-title {
+      font-size: 35px;
+    }
+  }
+  .skills {
+    & .skills-header {
+      font-size: 35px;
+    }
+  }
+  .contacts {
+    & .touch {
+      font-size: 35px;
+    }
+  }
+  .hero {
+    & .hero-inner {
+      & .about {
+        & .name {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 651px) {
   .contacts {
     & .socials {
@@ -150,4 +176,6 @@
   .skills {
     padding: 70px 30px;
   }
+}
+@media screen and (max-width: 551px) {
 }
