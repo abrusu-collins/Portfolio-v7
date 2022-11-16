@@ -95,8 +95,8 @@ function Allprojects() {
               temporibus?
             </p>
             <div className="project-links">
-              <a href="">View Code</a>
-              <a href="">Live Link</a>
+              <a href="https://github.com/abrusu-collins/blacko">View Code</a>
+              <a href="https://blacko.vercel.app/">Live Link</a>
             </div>
           </div>
           <img data-aos="zoom-out" src={img5} alt="" />
@@ -112,8 +112,8 @@ function Allprojects() {
               temporibus?
             </p>
             <div className="project-links">
-              <a href="">View Code</a>
-              <a href="">Live Link</a>
+              <a href="https://github.com/abrusu-collins/Scordy-Shots">View Code</a>
+              <a href="https://scordy-shots.vercel.app/">Live Link</a>
             </div>
           </div>
         </div>
@@ -127,8 +127,8 @@ function Allprojects() {
               temporibus?
             </p>
             <div className="project-links">
-              <a href="">View Code</a>
-              <a href="">Live Link</a>
+              <a href="https://github.com/abrusu-collins/Game-Island">View Code</a>
+              <a href="https://game-island.netlify.app/">Live Link</a>
             </div>
           </div>
           <img data-aos="zoom-out" src={img7} alt="" />
@@ -144,8 +144,8 @@ function Allprojects() {
               temporibus?
             </p>
             <div className="project-links">
-              <a href="">View Code</a>
-              <a href="">Live Link</a>
+              <a href="https://github.com/abrusu-collins/WordBox">View Code</a>
+              <a href="http://clisteocrr.herokuapp.com/">Live Link</a>
             </div>
           </div>
         </div>
