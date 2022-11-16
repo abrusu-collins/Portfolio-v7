@@ -19,10 +19,9 @@ function Projects() {
         <div className="project-about" data-aos="zoom-in">
           <p className="project-name">Mawuli's Art🎨</p>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
-            sapiente facere repudiandae inventore. Aut mollitia ipsum, eius modi
-            hic beatae maiores ad sequi dolor debitis, ipsam odit asperiores
-            temporibus?
+          Mawuli is a  self-taught pencil artist, illustrator and graphic designer based in Hohoe,Ghana.
+             He wanted a website to showcase his artworks so I created one for him.
+             Technologies used:React and Sass.
           </p>
           <div className="project-links">
             <a href="https://github.com/abrusu-collins/Mawuli-s-art" target="blank">View Code</a>
@@ -36,10 +35,11 @@ function Projects() {
         <div className="project-about" data-aos="zoom-in">
           <p className="project-name">Antonio Fotografo📸</p>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
-            sapiente facere repudiandae inventore. Aut mollitia ipsum, eius modi
-            hic beatae maiores ad sequi dolor debitis, ipsam odit asperiores
-            temporibus?
+          Antonio gargano is a wedding and family photographer based in Catanzaro, Italy.
+            I was browsing through a website called mywed and I came across his profile.
+            He had captured very beautiful pictures but he didn't have a website. 
+            So I reached out, we agreed on the price and I did it for him. 
+            Technologies used:HTML, Sass, and JavaScript.
           </p>
           <div className="project-links">
             <a href="https://github.com/abrusu-collins/Antonio" target="blank">View Code</a>
@@ -51,10 +51,10 @@ function Projects() {
         <div className="project-about" data-aos="zoom-in">
           <p className="project-name">Hotelvivi🏨</p>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
-            sapiente facere repudiandae inventore. Aut mollitia ipsum, eius modi
-            hic beatae maiores ad sequi dolor debitis, ipsam odit asperiores
-            temporibus?
+          Developed a beautiful website template for hotels to help
+            their customers book rooms, order food from their restaurants, 
+            book SPA sessions, and a whole lot of functionalities.
+            Technologies used: React, React Router DOM, and Sass.
           </p>
           <div className="project-links">
             <a href="https://github.com/abrusu-collins/hotel-vivi" target="blank">View Code</a>
@@ -68,10 +68,10 @@ function Projects() {
         <div className="project-about" data-aos="zoom-in">
           <p className="project-name">DevTech💻</p>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
-            sapiente facere repudiandae inventore. Aut mollitia ipsum, eius modi
-            hic beatae maiores ad sequi dolor debitis, ipsam odit asperiores
-            temporibus?
+          I design and develop websites and mobile applications for small and medium-sized businesses.
+            As a result, I made this website to detail all of the services I provide.
+            My customers can order services through the website, which I then carry out for them.
+            Technologies used: React and Sass.
           </p>
           <div className="project-links">
             <a href="https://github.com/abrusu-collins/DevTech" target="blank">View Code</a>

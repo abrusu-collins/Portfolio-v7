@@ -46,7 +46,6 @@ function Allprojects() {
             He had captured very beautiful pictures but he didn't have a website. 
             So I reached out, we agreed on the price and I did it for him. 
             Technologies used:HTML, Sass, and JavaScript.
-
             </p>
             <div className="project-links">
               <a href="https://github.com/abrusu-collins/Antonio" target="blank">View Code</a>
@@ -62,7 +61,6 @@ function Allprojects() {
             their customers book rooms, order food from their restaurants, 
             book SPA sessions, and a whole lot of functionalities.
             Technologies used: React, React Router DOM, and Sass.
-
             </p>
             <div className="project-links">
               <a href="https://github.com/abrusu-collins/hotel-vivi" target="blank">View Code</a>
@@ -80,7 +78,6 @@ function Allprojects() {
             As a result, I made this website to detail all of the services I provide.
             My customers can order services through the website, which I then carry out for them.
             Technologies used: React and Sass.
-
             </p>
             <div className="project-links">
               <a href="https://github.com/abrusu-collins/DevTech" target="blank">View Code</a>
