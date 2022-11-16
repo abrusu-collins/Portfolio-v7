@@ -1,11 +1,11 @@
 function Navbar() {
     return ( 
         <nav>
-            <a className="home-btn" href="">Home</a>
-            <a href="">Projects</a>
-            <a href="">Skills</a>
-            <a href="">Quotes</a>
-            <a href="">Contacts</a>
+            <a className="home-btn" href="/">Home</a>
+            <a href="/allprojects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="https://sedem-qoutes.vercel.app/" target="blank">Quotes</a>
+            <a href="#contacts">Contacts</a>
 
         </nav>
      );

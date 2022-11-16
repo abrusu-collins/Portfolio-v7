@@ -12,6 +12,7 @@
   box-sizing: border-box;
   color: #8d93a0;
   font-family: SohneMono;
+  scroll-behavior: smooth;
 }
 
 body {

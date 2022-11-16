@@ -72,7 +72,7 @@ function Projects() {
         </div>
       </div>
       <div className="more">
-        <a href="">View more projects</a>
+        <a href="/allprojects">View more projects</a>
       </div>
     </div>
   );

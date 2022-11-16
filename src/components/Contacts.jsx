@@ -4,7 +4,7 @@ import github from "../img/github.png";
 
 function Contacts() {
     return ( 
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <p className="touch">Get in touch🤙</p>
             <div className="socials">
             <a href=""><img src={twitter} alt="" /></a>

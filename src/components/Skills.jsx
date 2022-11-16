@@ -1,6 +1,6 @@
 function Skills() {
     return ( 
-        <div className="skills">
+        <div className="skills" id="skills">
             <p className="skills-header">What I know🛠️</p>
             <div className="skills-innner">
                 <div className="langs">

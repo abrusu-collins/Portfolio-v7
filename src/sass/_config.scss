@@ -22,6 +22,7 @@ $white:#ffffff;
     box-sizing: border-box;
     color: $color_text;
     font-family:SohneMono;
+    scroll-behavior: smooth;
 }
 body{
     background-color: $dark_background1;
