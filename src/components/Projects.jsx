@@ -9,7 +9,7 @@ import img4 from "../img/devtech.png";
 function Projects() {
   useEffect(() => {
     AOS.init({
-      duration: 900
+      duration: 400
     });
   }, []);
   return (

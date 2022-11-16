@@ -14,7 +14,7 @@ import img8 from "../img/wordbox.png";
 function Allprojects() {
   useEffect(() => {
     AOS.init({
-      duration: 900
+      duration: 400
     });
   }, []);
     let year = new Date().getFullYear();
