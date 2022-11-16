@@ -36,7 +36,7 @@ function Projects() {
           <p className="project-name">Antonio Fotografo📸</p>
           <p className="description">
           Antonio gargano is a wedding and family photographer based in Catanzaro, Italy.
-            I was browsing through a website called mywed and I came across his profile.
+            I came accross his profile on mywed.
             He had captured very beautiful pictures but he didn't have a website. 
             So I reached out, we agreed on the price and I did it for him. 
             Technologies used:HTML, Sass, and JavaScript.
