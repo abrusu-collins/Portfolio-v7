@@ -1,3 +1,6 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import img1 from "../img/antonio.png";
 import img2 from "../img/mawuli2.png";
 import img3 from "../img/hotelvivi.png";
@@ -9,7 +12,10 @@ import img8 from "../img/wordbox.png";
 
 
 function Allprojects() {
-    let year = new Date().getFullYear()
+  useEffect(() => {
+    AOS.init();
+  }, []);
+    let year = new Date().getFullYear();
     return ( 
         <div className="projects">
         <p className="projects-title">All Projects✨</p>
