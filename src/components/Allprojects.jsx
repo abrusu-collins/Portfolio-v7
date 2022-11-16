@@ -27,6 +27,7 @@ function Allprojects() {
             <p className="description">
              Mawuli is a  self-taught pencil artist, illustrator and graphic designer based in Hohoe,Ghana.
              He wanted a website to showcase his artworks so I created one for him.
+             Technologies used:React and Sass.
             </p>
             <div className="project-links">
               <a href="https://github.com/abrusu-collins/Mawuli-s-art" target="blank">View Code</a>
@@ -44,6 +45,8 @@ function Allprojects() {
             I was browsing through a website called mywed and I came across his profile.
             He had captured very beautiful pictures but he didn't have a website. 
             So I reached out, we agreed on the price and I did it for him. 
+            Technologies used:HTML, Sass, and JavaScript.
+
             </p>
             <div className="project-links">
               <a href="https://github.com/abrusu-collins/Antonio" target="blank">View Code</a>
@@ -109,6 +112,7 @@ function Allprojects() {
               Scordy Shots is a ghanaian photo studio owned by Asante Scordy.
               He wanted a website to showcase his photos and also help people book his services online.
               I did it for him and he was very happy with it.
+              Technologies used:HTML, Sass and JavaScript.
             </p>
             <div className="project-links">
               <a href="https://github.com/abrusu-collins/Scordy-Shots" target="blank">View Code</a>
