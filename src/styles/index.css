@@ -57,7 +57,6 @@ nav a:hover {
   margin: 50px 0 200px 0;
 }
 .hero .hero-inner {
-  background-color: #12141a;
   width: 80%;
   place-items: center;
   padding: 70px;
@@ -142,7 +141,6 @@ nav a:hover {
   grid-gap: 2rem;
   align-items: center;
   width: 80%;
-  background-color: #12141a;
   margin: 70px auto;
   padding: 70px;
   border-radius: 20px;
