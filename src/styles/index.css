@@ -91,7 +91,6 @@ nav a:hover {
   width: 80%;
   padding: 70px;
   border-radius: 20px;
-  background-color: #12141a;
 }
 .skills .skills-header {
   font-family: SohneBold;
@@ -106,7 +105,7 @@ nav a:hover {
   grid-gap: 3rem;
 }
 .skills .skills-innner > div {
-  background-color: #1a1c24;
+  background-color: #12141a;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
