@@ -91,7 +91,6 @@ nav a:hover {
   width: 80%;
   padding: 70px;
   border-radius: 20px;
-  background-color: #12141a;
 }
 .skills .skills-header {
   font-family: SohneBold;
@@ -106,13 +105,13 @@ nav a:hover {
   grid-gap: 3rem;
 }
 .skills .skills-innner > div {
-  background-color: #1a1c24;
+  background-color: #12141a;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
 }
 .skills .skills-innner > div .title {
-  background-color: #212632;
+  background-color: #1a1c24;
   font-family: SohneBold;
   color: #c5c9d2;
   font-size: 25px;
@@ -209,7 +208,7 @@ nav a:hover {
     width: 90%;
   }
   .skills {
-    width: 90%;
+    width: 100%;
   }
   .contacts {
     width: 90%;

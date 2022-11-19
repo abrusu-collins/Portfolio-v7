@@ -3,7 +3,6 @@
     width: 80%;
     padding: 70px;
     border-radius: 20px;
-    background-color: $dark_background2;
     & .skills-header{
         font-family:SohneBold;
         color: $color_header;
@@ -16,12 +15,12 @@
         grid-template-columns: repeat(2,1fr);
         grid-gap: 3rem;
         & >div{
-            background-color: $dark_background3;
+            background-color: $dark_background2;
             padding: 30px;
             border-radius: 20px;
             text-align: center;
             & .title{
-                background-color: $dark_background4;
+                background-color: $dark_background3;
                 font-family:SohneBold;
                 color: $color_header;
                 font-size: 25px;
