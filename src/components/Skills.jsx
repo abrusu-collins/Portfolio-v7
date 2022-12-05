@@ -15,6 +15,8 @@ function Skills() {
                         <p>React</p>
                         <p>Redux</p>
                         <p>Node</p>
+                        <p>Express</p>
+                        <p>MongoDB</p>
                         <p> Jest</p>
                         <p> REST APIs</p>
                     </div>
