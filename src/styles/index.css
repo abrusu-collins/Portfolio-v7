@@ -270,6 +270,11 @@ nav ul {
   color: #474d66;
 }
 
+.footer {
+  height: 50vh;
+  background-color: #5536d1;
+}
+
 @media screen and (max-width: 966px) {
   nav .navbar {
     width: 100%;
