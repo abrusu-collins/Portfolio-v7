@@ -183,6 +183,10 @@ nav ul {
   gap: 1em;
 }
 
+.testimonials {
+  height: 30vh;
+}
+
 @media screen and (max-width: 966px) {
   nav .navbar {
     width: 100%;
