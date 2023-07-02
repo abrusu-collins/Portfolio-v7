@@ -114,6 +114,49 @@ nav ul {
   font-size: 20px;
   color: #101840;
 }
+.projects .projecct-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 60px auto;
+  gap: 2rem 2rem;
+}
+.projects .projecct-cards > div {
+  border: 1px solid #d7dbe0;
+  padding: 30px 15px;
+  border-radius: 4px;
+}
+.projects .projecct-cards > div .logo {
+  font-size: 30px;
+  color: #101840;
+  border: 1px solid #d7dbe0;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px;
+}
+.projects .projecct-cards > div .project-name {
+  line-height: 60px;
+  font-size: 47px;
+  font-family: agrandir;
+  font-size: 25px;
+  margin: 5px 0;
+  color: #101840;
+  padding: 0;
+}
+.projects .projecct-cards > div .description {
+  color: #474d66;
+  margin-bottom: 15px;
+}
+.projects .projecct-cards > div .links {
+  display: flex;
+  gap: 1rem;
+}
+.projects .projecct-cards > div .links a {
+  text-decoration: none;
+  color: #101840;
+  font-size: 20px;
+}
 
 @media screen and (max-width: 966px) {
   nav .navbar {

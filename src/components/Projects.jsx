@@ -72,10 +72,10 @@ function Projects() {
       <div className="projecct-cards">
         {projectContent.map((projectItem) => {
           return (
-            <div key={projectItem.name}>
-              <div> {r[projectItem.id]}</div>
-              <p>{projectItem.name}</p>
-              <p>{projectItem.description}</p>
+            <div className="all" key={projectItem.name}>
+              <div className="logo"> {r[projectItem.id]}</div>
+              <p className="project-name">{projectItem.name}</p>
+              <p className="description">{projectItem.description}</p>
               <div className="links">
                 <a href={projectItem.github}>
                   <BsGithub />
