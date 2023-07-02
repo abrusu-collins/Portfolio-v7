@@ -7,6 +7,14 @@ nav {
   color: $white;
   padding: 30px 0;
   & .navbar {
+    & .name {
+      font-size: 37px;
+      font-family: agrandir;
+      & span {
+        color: $green;
+        font-size: 100px;
+      }
+    }
     width: 80%;
     margin: auto;
     display: flex;

@@ -50,6 +50,14 @@ nav .navbar {
   align-items: center;
   justify-content: space-around;
 }
+nav .navbar .name {
+  font-size: 37px;
+  font-family: agrandir;
+}
+nav .navbar .name span {
+  color: #f9f871;
+  font-size: 100px;
+}
 nav .navbar img {
   width: 4%;
 }
