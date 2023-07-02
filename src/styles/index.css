@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: agrandir;
+  src: url("../../public/fonts/Agrandir-Regular.ac0a1cb25485b4d0b3c2.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 28.8px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  background-color: #5536d1;
+  color: #fcfeff;
+  padding: 30px 0;
+}
+nav .navbar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .navbar img {
+  width: 4%;
+}
+nav .navbar ul li {
+  display: inline;
+  list-style: none;
+}
+nav .navbar ul li a {
+  text-decoration: none;
+  color: #fcfeff;
+}
+nav .navbar ul li a:hover {
+  color: #fcfeff;
+}
+nav .navbar ul li:not(:last-child) {
+  margin-right: 50px;
+}
+nav ul {
+  display: none;
+}
+
+.hero {
+  background-color: #5536d1;
+}
+.hero > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 100px 0;
+}
+.hero > div > div .title {
+  color: #f9f871;
+  font-size: 47px;
+  font-family: agrandir;
+  line-height: 60px;
+}
+.hero > div > div .description {
+  color: #fcfeff;
+  margin: 30px 0;
+}
+.hero > div > div .socials {
+  display: flex;
+  gap: 1rem;
+}
+.hero > div > div .socials a {
+  text-decoration: none;
+  color: #f9f871;
+  font-size: 30px;
+}
+.hero img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 966px) {
+  nav .navbar {
+    width: 100%;
+  }
+  nav .navbar img {
+    width: 8%;
+  }
+}
+@media screen and (min-width: 831px) {
+  nav .navbar ul {
+    display: flex;
+  }
+  nav .bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 831px) {
+  nav .navbar {
+    width: 100%;
+  }
+  nav .navbar img {
+    width: 8%;
+  }
+  nav .navbar ul {
+    display: none;
+  }
+  nav .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .mobile-nav li {
+    list-style: none;
+  }
+  nav .mobile-nav li a {
+    text-decoration: none;
+    color: #fcfeff;
+  }
+  nav .mobile-nav li a:hover {
+    color: #fcfeff;
+  }
+}
+@media screen and (max-width: 650px) {
+  nav .navbar img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 417px) {
+  nav .navbar img {
+    width: 15%;
+  }
+}

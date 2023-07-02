@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: agrandir;
+  src: url("../../public/fonts/Agrandir-Regular.ac0a1cb25485b4d0b3c2.woff");
+}
+$green: #f9f871;
+$blue: #5536d1;
+$light_blue: #eeebfa;
+$white: #fcfeff;
+$black: #101840;
+$grey: #474d66;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 28.8px;
+}
+
+@mixin title-line-height {
+  line-height: 60px;
+}
