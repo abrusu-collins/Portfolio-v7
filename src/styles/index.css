@@ -369,3 +369,13 @@ footer > p {
     width: 15%;
   }
 }
+@media screen and (max-width: 897px) {
+  footer .footer {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media screen and (max-width: 505px) {
+  footer .footer {
+    grid-template-columns: 1fr;
+  }
+}
