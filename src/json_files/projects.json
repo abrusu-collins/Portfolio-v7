@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "PhotoSlaash",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "webapp",
+    "github": "https://github.com/abrusu-collins/photoslaash",
+    "live": "https://photoslaash.vercel.app/"
+  },
+  {
+    "id": 1,
+    "name": "NameWise",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "webapp",
+    "github": "https://github.com/abrusu-collins/namewise",
+    "live": "https://namewise.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "Bibly",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "webapp",
+    "github": "https://github.com/abrusu-collins/bibly",
+    "live": "https://biblyapp.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Game-Island",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "webapp",
+    "github": "https://github.com/abrusu-collins/Game-Island",
+    "live": "https://game-island.netlify.app/"
+  },
+  {
+    "id": 4,
+    "name": "Complexify",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "webapp",
+    "github": "https://github.com/abrusu-collins/complexify",
+    "live": "https://complexifyapp.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "Hotelvivi",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "website",
+    "github": "https://github.com/abrusu-collins/hotel-vivi",
+    "live": "https://hotelvivi.netlify.app/"
+  },
+  {
+    "id": 6,
+    "name": "Devtech",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "website",
+    "github": "https://github.com/abrusu-collins/DevTech",
+    "live": "https://dev-tech.vercel.app/"
+  },
+  {
+    "id": 7,
+    "name": "Mawuli's Art",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "website",
+    "github": "https://github.com/abrusu-collins/Mawuli-s-art",
+    "live": "http://mawulis-art.vercel.app/"
+  },
+  {
+    "id": 8,
+    "name": "Antonio Gargano",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum voluptate quidem necessitatibus voluptatum debitis ipsam aliquid? Reiciendis consectetur voluptas maxime, exercitationem dicta quos impedit autem ex natus aliquid? Quam!",
+    "type": "website",
+    "github": "https://github.com/abrusu-collins/Antonio",
+    "live": "https://antoniogargano.vercel.app/"
+  }
+]

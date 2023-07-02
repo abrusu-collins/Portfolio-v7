@@ -20,4 +20,13 @@ $grey: #474d66;
 
 @mixin title-line-height {
   line-height: 60px;
+  font-size: 47px;
+  font-family: agrandir;
+}
+
+.active-toggle {
+  background-color: $blue;
+  padding: 10px 60px;
+  color: $green !important;
+  border-radius: 4px;
 }

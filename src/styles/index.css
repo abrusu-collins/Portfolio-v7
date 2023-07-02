@@ -11,6 +11,13 @@
   line-height: 28.8px;
 }
 
+.active-toggle {
+  background-color: #5536d1;
+  padding: 10px 60px;
+  color: #f9f871 !important;
+  border-radius: 4px;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -62,9 +69,9 @@ nav ul {
 }
 .hero > div > div .title {
   color: #f9f871;
+  line-height: 60px;
   font-size: 47px;
   font-family: agrandir;
-  line-height: 60px;
 }
 .hero > div > div .description {
   color: #fcfeff;
@@ -82,6 +89,30 @@ nav ul {
 .hero img {
   width: 100%;
   border-radius: 10px;
+}
+
+.projects .title {
+  text-align: center;
+  line-height: 60px;
+  font-size: 47px;
+  font-family: agrandir;
+  margin-top: 60px;
+  color: #101840;
+}
+.projects .toggle {
+  background-color: #eeebfa;
+  width: 50%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  border-radius: 10px;
+  align-items: center;
+}
+.projects .toggle a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #101840;
 }
 
 @media screen and (max-width: 966px) {

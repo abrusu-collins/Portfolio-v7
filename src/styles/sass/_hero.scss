@@ -11,8 +11,6 @@
     & > div {
       & .title {
         color: $green;
-        font-size: 47px;
-        font-family: agrandir;
         @include title-line-height;
       }
       & .description {
