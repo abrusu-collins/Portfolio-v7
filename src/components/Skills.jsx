@@ -9,10 +9,11 @@ function Skills() {
       <div className="skills-inner">
         <p className="title">Technologies I use</p>
         <p className="skills-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          molestiae quam? Omnis voluptates architecto nam aut quos libero
-          aliquid eum eos maiores cupiditate qui et fugiat enim accusamus,
-          tempora harum?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore
+        soluta cum adipisci iusto in expedita fugiat tenetur et, voluptate
+        suscipit? Accusantium fugiat rerum quisquam molestiae dicta quidem sunt
+        ducimus.  Accusantium fugiat rerum quisquam molestiae dicta quidem sunt
+        
         </p>
         <div className="techs">
           <BiLogoJavascript />

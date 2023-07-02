@@ -1,12 +1,13 @@
 .skills {
   background-color: $light_blue;
   padding: 60px 0;
+  text-align: center;
   & .skills-inner {
     width: 80%;
     margin: auto;
     & .skills-text {
       color: $grey;
-      margin: 30px 0;
+      margin: 60px 0;
     }
     & .title {
       @include title-line-height;
@@ -17,6 +18,9 @@
       color: $black;
       display: flex;
       gap: 1em;
+      text-align: center;
+     align-items: center;
+     justify-content: center;
     }
   }
 }

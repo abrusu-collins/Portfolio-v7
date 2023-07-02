@@ -177,6 +177,7 @@ nav ul {
 .skills {
   background-color: #eeebfa;
   padding: 60px 0;
+  text-align: center;
 }
 .skills .skills-inner {
   width: 80%;
@@ -184,7 +185,7 @@ nav ul {
 }
 .skills .skills-inner .skills-text {
   color: #474d66;
-  margin: 30px 0;
+  margin: 60px 0;
 }
 .skills .skills-inner .title {
   line-height: 60px;
@@ -197,6 +198,25 @@ nav ul {
   color: #101840;
   display: flex;
   gap: 1em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.testimonial-header .title {
+  line-height: 60px;
+  font-size: 47px;
+  font-family: agrandir;
+  margin: 60px auto;
+  padding: 0;
+}
+.testimonial-header .text {
+  color: #474d66;
 }
 
 .testimonials {
