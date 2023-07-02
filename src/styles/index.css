@@ -278,9 +278,41 @@ nav ul {
   color: #474d66;
 }
 
-.footer {
-  height: 50vh;
+footer {
   background-color: #5536d1;
+  color: #fcfeff;
+  padding: 60px 0;
+  width: 100%;
+}
+footer .footer {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin: auto;
+  gap: 3rem;
+}
+footer .footer .name {
+  font-size: 37px;
+  font-family: agrandir;
+}
+footer .footer .name span {
+  color: #f9f871;
+  font-size: 100px;
+}
+footer .footer div .footer-title {
+  font-size: 20px;
+  font-family: agrandir;
+  color: #f9f871;
+  margin: 10px 0;
+}
+footer .footer div a {
+  text-decoration: none;
+  color: #fcfeff;
+  display: block;
+}
+footer > p {
+  text-align: center;
+  margin-top: 80px;
 }
 
 @media screen and (max-width: 966px) {
