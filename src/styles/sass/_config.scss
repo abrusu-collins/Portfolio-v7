@@ -30,3 +30,12 @@ $grey: #474d66;
   color: $green !important;
   border-radius: 4px;
 }
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

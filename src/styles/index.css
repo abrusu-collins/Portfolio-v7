@@ -18,6 +18,14 @@
   border-radius: 4px;
 }
 
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 nav {
   position: sticky;
   top: 0;
@@ -184,7 +192,28 @@ nav ul {
 }
 
 .testimonials {
-  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+}
+.testimonials .left-infinite {
+  display: flex;
+  width: 200%;
+  gap: 2rem;
+  padding: 60px;
+  animation: scroll-left 25s ease-in-out infinite;
+}
+.testimonials .left-infinite > div {
+  background-color: #eeebfa;
+  padding: 20px;
+  border-radius: 5px;
+  width: 20%;
+}
+.testimonials .left-infinite > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #474d66;
 }
 
 @media screen and (max-width: 966px) {

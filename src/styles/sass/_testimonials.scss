@@ -1,3 +1,25 @@
-.testimonials{
-    height: 30vh;
+.testimonials {
+  width: 100%;
+  overflow: hidden;
+
+  & .left-infinite {
+    display: flex;
+    width: 200%;
+    gap: 2rem;
+    padding: 60px;
+    animation: scroll-left 25s ease-in-out  infinite;
+    & > div {
+      background-color: $light_blue;
+      padding: 20px;
+      border-radius: 5px;
+      width: 20%;
+      & > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        color: $grey;
+      }
+    }
+  }
 }
