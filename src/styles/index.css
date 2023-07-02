@@ -158,6 +158,31 @@ nav ul {
   font-size: 20px;
 }
 
+.skills {
+  background-color: #eeebfa;
+  padding: 60px 0;
+}
+.skills .skills-inner {
+  width: 80%;
+  margin: auto;
+}
+.skills .skills-inner .skills-text {
+  color: #474d66;
+  margin: 30px 0;
+}
+.skills .skills-inner .title {
+  line-height: 60px;
+  font-size: 47px;
+  font-family: agrandir;
+  color: #101840;
+}
+.skills .skills-inner .techs {
+  font-size: 80px;
+  color: #101840;
+  display: flex;
+  gap: 1em;
+}
+
 @media screen and (max-width: 966px) {
   nav .navbar {
     width: 100%;
