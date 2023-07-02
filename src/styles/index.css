@@ -23,7 +23,15 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
+  }
+}
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
 nav {
@@ -194,13 +202,17 @@ nav ul {
 .testimonials {
   width: 100%;
   overflow: hidden;
+  padding: 60px;
 }
 .testimonials .left-infinite {
   display: flex;
   width: 200%;
   gap: 2rem;
-  padding: 60px;
-  animation: scroll-left 25s ease-in-out infinite;
+  margin-bottom: 60px;
+  animation: scroll-left 25s linear infinite;
+}
+.testimonials .left-infinite:hover {
+  animation-play-state: paused;
 }
 .testimonials .left-infinite > div {
   background-color: #eeebfa;
@@ -209,6 +221,28 @@ nav ul {
   width: 20%;
 }
 .testimonials .left-infinite > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #474d66;
+}
+.testimonials .right-infinite {
+  display: flex;
+  width: 200%;
+  gap: 2rem;
+  animation: scroll-right 25s linear infinite;
+}
+.testimonials .right-infinite:hover {
+  animation-play-state: paused;
+}
+.testimonials .right-infinite > div {
+  background-color: #eeebfa;
+  padding: 20px;
+  border-radius: 5px;
+  width: 20%;
+}
+.testimonials .right-infinite > div > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
