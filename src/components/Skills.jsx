@@ -9,11 +9,11 @@ function Skills() {
       <div className="skills-inner">
         <p className="title">Technologies I use</p>
         <p className="skills-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore
-        soluta cum adipisci iusto in expedita fugiat tenetur et, voluptate
-        suscipit? Accusantium fugiat rerum quisquam molestiae dicta quidem sunt
-        ducimus.  Accusantium fugiat rerum quisquam molestiae dicta quidem sunt
-        
+          These are the powerful tools and technologies I employ to craft
+          exceptional digital experiences. From cutting-edge programming
+          languages to robust libraries and frameworks, this collection
+          represents my proficiency in harnessing the latest technological
+          advancements.
         </p>
         <div className="techs">
           <BiLogoJavascript />

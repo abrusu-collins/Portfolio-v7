@@ -3,13 +3,12 @@ import React from "react";
 function TestimonialHeader() {
   return (
     <div className="testimonial-header">
-      <p className="title">Don't just take my words for it</p>
+      <p className="title">Don&apos;t just take my words for it</p>
       <p className="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore
-        soluta cum adipisci iusto in expedita fugiat tenetur et, voluptate
-        suscipit? Accusantium fugiat rerum quisquam molestiae dicta quidem sunt
-        ducimus.  Accusantium fugiat rerum quisquam molestiae dicta quidem sunt
-        
+        These are a couple of genuine comments and praises from individuals who
+        have experienced and appreciated my creations. Explore their
+        authentic testimonials and let their words speak volumes about the
+        quality and resonance of my craft.
       </p>
     </div>
   );
