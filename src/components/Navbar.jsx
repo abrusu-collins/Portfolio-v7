@@ -22,7 +22,7 @@ function NavBar() {
             <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a href="#footer">Contact</a>
+          <a href="mailto:snillochemingson@gmail.com">Send Mail</a>
           </li>
         </ul>
         <div className="bar">

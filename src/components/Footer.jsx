@@ -30,11 +30,11 @@ function Footer() {
 
         <div>
           <p className="footer-title">Site Map</p>
-          <Link href="/">About</Link>
-          <Link href="/offering">Projects</Link>
-          <Link href="/menu">Skills</Link>
-          <Link href="/about">Testimonials</Link>
-          <Link href="/events">Contact</Link>
+          <a href="#top">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="mailto:snillochemingson@gmail.com">Send Mail</a>
         </div>
 
         <div>
