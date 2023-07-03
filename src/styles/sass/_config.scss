@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: agrandir;
+  src: url("../../public/fonts/Agrandir-Regular.ac0a1cb25485b4d0b3c2.woff");
+}
+$green: #f9f871;
+$blue: #5536d1;
+$light_blue: #eeebfa;
+$white: #fcfeff;
+$black: #101840;
+$grey: #474d66;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 28.8px;
+  scroll-behavior: smooth;
+}
+
+@mixin title-line-height {
+  line-height: 60px;
+  font-size: 47px;
+  font-family: agrandir;
+}
+
+.active-toggle {
+  background-color: $blue;
+  padding: 10px 60px;
+  color: $green !important;
+  border-radius: 4px;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes scroll-left-responsive {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-68%);
+  }
+}
+@keyframes scroll-right-responsive {
+  from {
+    transform: translateX(-68%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes scroll-left-responsive1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-75%);
+  }
+}
+@keyframes scroll-right-responsive1 {
+  from {
+    transform: translateX(-75%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes scroll-left-responsive2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-87%);
+  }
+}
+@keyframes scroll-right-responsive2 {
+  from {
+    transform: translateX(-87%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-left-responsive3 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+}
+@keyframes scroll-right-responsive3 {
+  from {
+    transform: translateX(-90%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

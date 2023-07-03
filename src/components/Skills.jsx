@@ -1,60 +1,30 @@
+import React from "react";
+import { DiSass } from "react-icons/di";
+import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
+import { SiTypescript, SiNextdotjs } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 function Skills() {
-    return ( 
-        <div className="skills" id="skills">
-            <p className="skills-header">What I know🛠️</p>
-            <div className="skills-innner">
-                <div className="langs">
-                    <p className="title">Languages, <br /> Frameworks <br /> and Libraries🚀</p>
-                    <div className="the-skills">
-                        <p>HTML5</p>
-                        <p>CSS3</p>
-                        <p>JavaScript</p>
-                        <p>Bootstrap</p>
-                        <p>Sass</p>
-                        <p>CSS Modules</p>
-                        <p>React</p>
-                        <p>Redux</p>
-                        <p>Node</p>
-                        <p>Express</p>
-                        <p>MongoDB</p>
-                        <p> Jest</p>
-                        <p> REST APIs</p>
-                    </div>
-                </div>
-                <div className="tools">
-                <p className="title">Tools🚀</p>
-                    <div className="the-skills">
-                        <p>Git</p>
-                        <p>VSCode</p>
-                        <p>NPM</p>
-                        <p>Yarn</p>
-                        <p>Webpack</p>
-                        <p>Adobe Photoshop</p>
-                    </div>
-                </div>
-                <div className="platforms">
-                <p className="title">Platforms🚀</p>
-                    <div className="the-skills">
-                        <p>GitHub</p>
-                        <p>Heroku</p>
-                        <p>Netlify</p>
-                        <p>Vercel</p>
-                    </div>
-                </div>
-                <div className="soft">
-                <p className="title">Soft Skills🚀</p>
-                    <div className="the-skills">
-                        <p> Leadership</p>
-                        <p>Writing</p>
-                        <p> Public Speaking</p>
-                        <p>Time Management</p>
-                        <p>Team Player</p>
-                        <p>Fast Learner</p>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="skills" id="skills">
+      <div className="skills-inner">
+        <p className="title">Technologies I use</p>
+        <p className="skills-text">
+          These are the powerful tools and technologies I employ to craft
+          exceptional digital experiences. From cutting-edge programming
+          languages to robust libraries and frameworks, this collection
+          represents my proficiency in harnessing the latest technological
+          advancements.
+        </p>
+        <div className="techs">
+          <BiLogoJavascript />
+          <BiLogoTypescript />
+          <FaReact />
+          <SiNextdotjs />
+          <DiSass />
         </div>
-     );
+      </div>
+    </div>
+  );
 }
 
 export default Skills;

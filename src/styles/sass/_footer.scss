@@ -1,0 +1,38 @@
+footer {
+  background-color: $blue;
+  color: $white;
+  padding: 60px 0;
+  width: 100%;
+  & .footer {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin: auto;
+    gap: 3rem;
+    & .name {
+        font-size: 37px;
+        font-family: agrandir;
+        & span {
+          color: $green;
+          font-size: 100px;
+        }
+      }
+    & div {
+      & .footer-title {
+        font-size: 20px;
+        font-family: agrandir;
+        color: $green;
+        margin: 10px 0;
+      }
+      & a {
+        text-decoration: none;
+        color: $white;
+        display: block;
+      }
+    }
+  }
+  & > p {
+    text-align: center;
+    margin-top: 80px;
+  }
+}

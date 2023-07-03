@@ -1,0 +1,26 @@
+.skills {
+  background-color: $light_blue;
+  padding: 60px 0;
+  text-align: center;
+  & .skills-inner {
+    width: 80%;
+    margin: auto;
+    & .skills-text {
+      color: $grey;
+      margin: 60px 0;
+    }
+    & .title {
+      @include title-line-height;
+      color: $black;
+    }
+    & .techs {
+      font-size: 80px;
+      color: $black;
+      display: flex;
+      gap: 1em;
+      text-align: center;
+     align-items: center;
+     justify-content: center;
+    }
+  }
+}

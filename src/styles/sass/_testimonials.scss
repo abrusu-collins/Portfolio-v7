@@ -1,0 +1,50 @@
+.testimonials {
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 2rem;
+  & .left-infinite {
+    display: flex;
+    width: 200%;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    animation: scroll-left 25s ease-in-out infinite alternate;
+    &:hover {
+      animation-play-state: paused;
+    }
+    & > div {
+      background-color: $light_blue;
+      padding: 20px;
+      border-radius: 5px;
+      width: 20%;
+      & > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        color: $grey;
+      }
+    }
+  }
+  & .right-infinite {
+    display: flex;
+    width: 200%;
+    gap: 2rem;
+    animation: scroll-right 25s ease-in-out infinite alternate;
+    &:hover {
+      animation-play-state: paused;
+    }
+    & > div {
+      background-color: $light_blue;
+      padding: 20px;
+      border-radius: 5px;
+      width: 20%;
+      & > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        color: $grey;
+      }
+    }
+  }
+}
