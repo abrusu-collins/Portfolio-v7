@@ -14,7 +14,7 @@ function Footer() {
   ];
   return (
     <footer>
-      <div className="footer">
+      <div className="footer" id="footer">
         <div>
           <Link href="/">
             <p className="name">

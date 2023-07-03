@@ -3,7 +3,7 @@ import { BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div>
         <div>
           <p className="title">Front-end engineer building cool products</p>
@@ -26,7 +26,7 @@ function Hero() {
             </a>
           </div>
         </div>
-        <img src="/imgs/DSC_4909.jpg" alt="" />
+        <img src="/imgs/DSC_4909.jpg" alt=""  />
       </div>
     </div>
   );

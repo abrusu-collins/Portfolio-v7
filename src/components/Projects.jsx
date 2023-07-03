@@ -56,7 +56,7 @@ function Projects() {
     setSitesToggle(true);
   };
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <p className="title">My recent projects</p>
       <div className="toggle">
         <a

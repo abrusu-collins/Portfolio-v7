@@ -5,7 +5,7 @@ import { SiTypescript, SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="skills-inner">
         <p className="title">Technologies I use</p>
         <p className="skills-text">

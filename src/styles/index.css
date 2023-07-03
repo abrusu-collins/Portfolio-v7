@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   line-height: 28.8px;
+  scroll-behavior: smooth;
 }
 
 .active-toggle {
