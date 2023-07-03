@@ -233,14 +233,14 @@ nav ul {
 .testimonials {
   width: 100%;
   overflow: hidden;
-  padding: 60px;
+  padding: 60px 2rem;
 }
 .testimonials .left-infinite {
   display: flex;
   width: 200%;
   gap: 2rem;
-  margin-bottom: 60px;
-  animation: scroll-left 25s linear infinite;
+  margin-bottom: 2rem;
+  animation: scroll-left 25s ease-in-out infinite alternate;
 }
 .testimonials .left-infinite:hover {
   animation-play-state: paused;
@@ -262,7 +262,7 @@ nav ul {
   display: flex;
   width: 200%;
   gap: 2rem;
-  animation: scroll-right 25s linear infinite;
+  animation: scroll-right 25s ease-in-out infinite alternate;
 }
 .testimonials .right-infinite:hover {
   animation-play-state: paused;
