@@ -5,7 +5,7 @@ function TestimonialHeader() {
     <div className="testimonial-header">
       <p className="title">Don&apos;t just take my words for it</p>
       <p className="text">
-        These are a couple of genuine comments and praises from individuals who
+        The following are a couple of genuine comments and praises from individuals who
         have experienced and appreciated my creations. Explore their
         authentic testimonials and let their words speak volumes about the
         quality and resonance of my craft.
