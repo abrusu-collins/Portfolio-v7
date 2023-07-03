@@ -9,6 +9,9 @@
     margin: auto;
     padding: 100px 0;
     & > div {
+      & span {
+        color: $green;
+      }
       & .title {
         color: $green;
         @include title-line-height;

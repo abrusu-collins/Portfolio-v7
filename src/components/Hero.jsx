@@ -8,10 +8,11 @@ function Hero() {
         <div>
           <p className="title">Front-end engineer building cool products</p>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            fugiat, a suscipit nam repellat quidem. Earum optio porro sapiente
-            quo, obcaecati praesentium autem reprehenderit dignissimos quibusdam
-            rem repellat inventore suscipit?
+            Hi, I&apos;m <span>Abrusu Collins</span>, a computer Science
+            graduate and a Front End Engineer based in Accra, Ghana. I love
+            developing softwares that run in your browser and I also love
+            writing clean, effficient and elegant code. I have been on this
+            journey since 2018 and I love how it&apos;s going.
           </p>
           <div className="socials">
             <a href="https://github.com/abrusu-collins">

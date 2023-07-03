@@ -91,6 +91,9 @@ nav ul {
   margin: auto;
   padding: 100px 0;
 }
+.hero > div > div span {
+  color: #f9f871;
+}
 .hero > div > div .title {
   color: #f9f871;
   line-height: 60px;
