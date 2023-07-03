@@ -66,6 +66,38 @@
     transform: translateX(0);
   }
 }
+@keyframes scroll-left-responsive2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-87%);
+  }
+}
+@keyframes scroll-right-responsive2 {
+  from {
+    transform: translateX(-87%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes scroll-left-responsive3 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+}
+@keyframes scroll-right-responsive3 {
+  from {
+    transform: translateX(-90%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 nav {
   position: sticky;
   top: 0;
@@ -477,6 +509,69 @@ footer > p {
   }
   .testimonial-header {
     width: 90%;
+  }
+}
+@media screen and (max-width: 544px) {
+  .testimonials .left-infinite {
+    width: 700%;
+    animation: scroll-left-responsive2 25s ease-in-out infinite alternate;
+  }
+  .testimonials .right-infinite {
+    width: 700%;
+    animation: scroll-right-responsive2 25s ease-in-out infinite alternate;
+  }
+  .hero > div > div .title {
+    font-size: 40px;
+  }
+  .projects .title {
+    font-size: 40px;
+  }
+  .skills .skills-inner .title {
+    font-size: 40px;
+  }
+  .testimonial-header .title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .projects .toggle {
+    width: 95%;
+  }
+  .projects .toggle a {
+    font-size: 16px;
+  }
+  .active-toggle {
+    padding: 10px 20px;
+  }
+  .skills .skills-inner .techs {
+    font-size: 60px;
+    gap: 2rem;
+  }
+  .hero > div > div .title {
+    font-size: 33px;
+  }
+  .projects .title {
+    font-size: 33px;
+  }
+  .skills .skills-inner .skills-text {
+    margin: 30px 0;
+  }
+  .skills .skills-inner .title {
+    font-size: 33px;
+  }
+  .testimonial-header .title {
+    font-size: 33px;
+    margin: 60px auto 30px auto;
+  }
+}
+@media screen and (max-width: 376px) {
+  .testimonials .left-infinite {
+    width: 900%;
+    animation: scroll-left-responsive3 25s ease-in-out infinite alternate;
+  }
+  .testimonials .right-infinite {
+    width: 900%;
+    animation: scroll-right-responsive3 25s ease-in-out infinite alternate;
   }
 }
 @media screen and (max-width: 897px) {

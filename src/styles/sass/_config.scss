@@ -79,3 +79,36 @@ $grey: #474d66;
     transform: translateX(0);
   }
 }
+@keyframes scroll-left-responsive2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-87%);
+  }
+}
+@keyframes scroll-right-responsive2 {
+  from {
+    transform: translateX(-87%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-left-responsive3 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+}
+@keyframes scroll-right-responsive3 {
+  from {
+    transform: translateX(-90%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

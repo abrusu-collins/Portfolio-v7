@@ -124,20 +124,6 @@
   }
 }
 @media screen and (max-width: 849px) {
-  // .hero {
-  //   & > div {
-  //     width: 90%;
-  //   }
-  // }
-  // .projects {
-  //   & .toggle {
-  //     width: 70%;
-  //   }
-  //   & .projecct-cards {
-  //     width: 90%;
-  //   }
-  // }
-
   .testimonials {
     & .left-infinite {
       width: 400%;
@@ -182,6 +168,112 @@
   }
   .testimonial-header {
     width: 90%;
+  }
+}
+@media screen and (max-width: 544px) {
+  .testimonials {
+    & .left-infinite {
+      width: 700%;
+      animation: scroll-left-responsive2 25s ease-in-out infinite alternate;
+    }
+    & .right-infinite {
+      width: 700%;
+      animation: scroll-right-responsive2 25s ease-in-out infinite alternate;
+    }
+  }
+  .hero {
+    & > div {
+      & > div {
+        & .title {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
+  .projects {
+    & .title {
+      font-size: 40px;
+    }
+  }
+
+  .skills {
+    & .skills-inner {
+      & .title {
+        font-size: 40px;
+      }
+    }
+  }
+  .testimonial-header {
+    & .title {
+      font-size: 40px;
+    }
+  }
+}
+@media screen and (max-width: 426px) {
+  .projects {
+    & .toggle {
+      width: 95%;
+      & a {
+        font-size: 16px;
+      }
+    }
+  }
+  .active-toggle {
+    padding: 10px 20px;
+  }
+  .skills {
+    & .skills-inner {
+      & .techs {
+        font-size: 60px;
+        gap: 2rem;
+      }
+    }
+  }
+
+  .hero {
+    & > div {
+      & > div {
+        & .title {
+          font-size: 33px;
+        }
+      }
+    }
+  }
+
+  .projects {
+    & .title {
+      font-size: 33px;
+    }
+  }
+
+  .skills {
+    & .skills-inner {
+      & .skills-text {
+        margin: 30px 0;
+      }
+      & .title {
+        font-size: 33px;
+      }
+    }
+  }
+  .testimonial-header {
+    & .title {
+      font-size: 33px;
+      margin: 60px auto 30px auto;
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+  .testimonials {
+    & .left-infinite {
+      width: 900%;
+      animation: scroll-left-responsive3 25s ease-in-out infinite alternate;
+    }
+    & .right-infinite {
+      width: 900%;
+      animation: scroll-right-responsive3 25s ease-in-out infinite alternate;
+    }
   }
 }
 //footer responsiveness
