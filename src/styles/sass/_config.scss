@@ -47,3 +47,35 @@ $grey: #474d66;
     transform: translateX(0);
   }
 }
+@keyframes scroll-left-responsive {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-68%);
+  }
+}
+@keyframes scroll-right-responsive {
+  from {
+    transform: translateX(-68%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes scroll-left-responsive1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-75%);
+  }
+}
+@keyframes scroll-right-responsive1 {
+  from {
+    transform: translateX(-75%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

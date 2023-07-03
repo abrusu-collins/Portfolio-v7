@@ -69,6 +69,121 @@
     }
   }
 }
+
+//home page responsiveness
+@media screen and (max-width: 1498px) {
+  .hero {
+    & > div {
+      width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 1173px) {
+  .hero {
+    & > div {
+      width: 90%;
+    }
+  }
+  .projects {
+    & .toggle {
+      width: 70%;
+    }
+    & .projecct-cards {
+      width: 90%;
+    }
+  }
+
+  .testimonials {
+    & .left-infinite {
+      width: 300%;
+      animation: scroll-left-responsive 25s ease-in-out infinite alternate;
+    }
+    & .right-infinite {
+      width: 300%;
+      animation: scroll-right-responsive 25s ease-in-out infinite alternate;
+    }
+  }
+}
+@media screen and (max-width: 1105px) {
+  .hero {
+    & > div {
+      width: 80%;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+@media screen and (max-width: 1055px) {
+  .projects {
+    & .toggle {
+      width: 80%;
+    }
+    & .projecct-cards {
+      grid-template-columns: repeat(2, 1fr);
+      width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 849px) {
+  // .hero {
+  //   & > div {
+  //     width: 90%;
+  //   }
+  // }
+  // .projects {
+  //   & .toggle {
+  //     width: 70%;
+  //   }
+  //   & .projecct-cards {
+  //     width: 90%;
+  //   }
+  // }
+
+  .testimonials {
+    & .left-infinite {
+      width: 400%;
+      animation: scroll-left-responsive1 25s ease-in-out infinite alternate;
+    }
+    & .right-infinite {
+      width: 400%;
+      animation: scroll-right-responsive1 25s ease-in-out infinite alternate;
+    }
+  }
+}
+@media screen and (max-width: 783px) {
+  .hero {
+    & > div {
+      width: 90%;
+    }
+  }
+  .projects {
+    & .toggle {
+      width: 90%;
+    }
+    & .projecct-cards {
+      width: 90%;
+    }
+  }
+}
+@media screen and (max-width: 663px) {
+  .projects {
+    & .projecct-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .skills {
+    & .skills-inner {
+      width: 90%;
+      & .techs {
+        font-size: 60px;
+        gap: 3rem;
+      }
+    }
+  }
+  .testimonial-header {
+    width: 90%;
+  }
+}
 //footer responsiveness
 @media screen and (max-width: 897px) {
   footer {
