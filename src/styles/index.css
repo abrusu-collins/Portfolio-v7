@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 @font-face {
   font-family: agrandir;
-  src: url("../fonts/Agrandir-Regular.woff");
+  src: url("/fonts/Agrandir-Regular.woff");
 }
 * {
   margin: 0;
@@ -370,7 +370,7 @@ footer .footer .name span {
 }
 footer .footer div .footer-title {
   font-size: 20px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   color: #f9f871;
   margin: 10px 0;
 }
