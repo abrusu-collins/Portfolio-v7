@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@font-face {
-  font-family: agrandir;
-  src: url("../fonts/Agrandir-Regular.woff");
-}
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+// @font-face {
+//   font-family: agrandir;
+//   src: url("../fonts/Agrandir-Regular.woff");
+// }
 $green: #f9f871;
 $blue: #5536d1;
 $light_blue: #eeebfa;
@@ -22,7 +23,7 @@ $grey: #474d66;
 @mixin title-line-height {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
 }
 
 .active-toggle {

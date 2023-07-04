@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@font-face {
-  font-family: agrandir;
-  src: url("../fonts/Agrandir-Regular.woff");
-}
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -117,7 +114,7 @@ nav .navbar {
 }
 nav .navbar .name {
   font-size: 37px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
 }
 nav .navbar .name span {
   color: #f9f871;
@@ -163,7 +160,7 @@ nav ul {
   color: #f9f871;
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
 }
 .hero > div > div .description {
   color: #fcfeff;
@@ -187,7 +184,7 @@ nav ul {
   text-align: center;
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   margin-top: 60px;
   color: #101840;
 }
@@ -230,7 +227,7 @@ nav ul {
 .projects .projecct-cards > div .project-name {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   font-size: 25px;
   margin: 5px 0;
   color: #101840;
@@ -266,7 +263,7 @@ nav ul {
 .skills .skills-inner .title {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   color: #101840;
 }
 .skills .skills-inner .techs {
@@ -287,7 +284,7 @@ nav ul {
 .testimonial-header .title {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   margin: 60px auto;
   padding: 0;
 }
@@ -361,7 +358,7 @@ footer .footer {
 }
 footer .footer .name {
   font-size: 37px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
 }
 footer .footer .name span {
   color: #f9f871;
