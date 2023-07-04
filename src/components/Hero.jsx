@@ -26,7 +26,7 @@ function Hero() {
             </a>
           </div>
         </div>
-        <img src="/imgs/DSC_4909.jpg" alt=""  />
+        <img src="/imgs/me.webp" alt=""  />
       </div>
     </div>
   );
