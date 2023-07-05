@@ -9,7 +9,7 @@ function Hero() {
           <p className="title">Front-end engineer building cool products</p>
           <p className="title stuff">Front-end engineer building cool stuff</p>
           <p className="description">
-            Hi, I&apos;m <span>Abrusu Collins</span>, a computer Science
+            Hi, I&apos;m <span>Collins Abrusu</span>, a computer Science
             graduate and a Front End Engineer based in Accra, Ghana. I love
             developing softwares that run in your browser and I also love
             writing clean, effficient and elegant code. I have been on this
