@@ -279,6 +279,20 @@
   }
 }
 @media screen and (max-width: 376px) {
+  .hero {
+    & > div {
+      & > div {
+        & .title {
+          & .products {
+            display: none;
+          }
+          & .stuff {
+            display: inline;
+          }
+        }
+      }
+    }
+  }
   .testimonials {
     & .left-infinite {
       width: 900%;

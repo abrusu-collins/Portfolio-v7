@@ -7,7 +7,9 @@ function NavBar() {
   return (
     <nav>
       <div className="navbar">
-        <p className="name">CA<span>.</span></p>
+        <p className="name">
+          CA<span>.</span>
+        </p>
         <ul>
           <li>
             <a href="#top">About</a>
@@ -22,7 +24,7 @@ function NavBar() {
             <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-          <a href="mailto:snillochemingson@gmail.com">Send Mail</a>
+            <a href="mailto:snillochemingson@gmail.com">Send Mail</a>
           </li>
         </ul>
         <div className="bar">
@@ -46,19 +48,19 @@ function NavBar() {
       </div>
       <ul className={navOpen ? "mobile-nav" : ""}>
         <li>
-          <Link href="/">About</Link>
+          <a href="#top">About</a>
         </li>
         <li>
-          <Link href="/offering">Projects</Link>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <Link href="/menu">Skills</Link>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <Link href="/about">Testimonials</Link>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
-          <Link href="/events">Contact</Link>
+          <a href="mailto:snillochemingson@gmail.com">Send Mail</a>
         </li>
       </ul>
     </nav>

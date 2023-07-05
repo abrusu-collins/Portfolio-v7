@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 @font-face {
   font-family: agrandir;
-  src: url("../../public/fonts/Agrandir-Regular.ac0a1cb25485b4d0b3c2.woff");
+  src: url("/fonts/Agrandir-Regular.woff");
 }
 * {
   margin: 0;
@@ -117,7 +118,7 @@ nav .navbar {
 }
 nav .navbar .name {
   font-size: 37px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
 }
 nav .navbar .name span {
   color: #f9f871;
@@ -163,7 +164,10 @@ nav ul {
   color: #f9f871;
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
+}
+.hero > div > div .title .stuff {
+  display: none;
 }
 .hero > div > div .description {
   color: #fcfeff;
@@ -187,7 +191,7 @@ nav ul {
   text-align: center;
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   margin-top: 60px;
   color: #101840;
 }
@@ -230,7 +234,7 @@ nav ul {
 .projects .projecct-cards > div .project-name {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   font-size: 25px;
   margin: 5px 0;
   color: #101840;
@@ -266,7 +270,7 @@ nav ul {
 .skills .skills-inner .title {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   color: #101840;
 }
 .skills .skills-inner .techs {
@@ -287,7 +291,7 @@ nav ul {
 .testimonial-header .title {
   line-height: 60px;
   font-size: 47px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   margin: 60px auto;
   padding: 0;
 }
@@ -361,7 +365,7 @@ footer .footer {
 }
 footer .footer .name {
   font-size: 37px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
 }
 footer .footer .name span {
   color: #f9f871;
@@ -369,7 +373,7 @@ footer .footer .name span {
 }
 footer .footer div .footer-title {
   font-size: 20px;
-  font-family: agrandir;
+  font-family: agrandir, "Manrope", sans-serif;
   color: #f9f871;
   margin: 10px 0;
 }
@@ -582,6 +586,12 @@ footer > p {
   }
 }
 @media screen and (max-width: 376px) {
+  .hero > div > div .title .products {
+    display: none;
+  }
+  .hero > div > div .title .stuff {
+    display: inline;
+  }
   .testimonials .left-infinite {
     width: 900%;
     animation: scroll-left-responsive3 25s ease-in-out infinite alternate;
