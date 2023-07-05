@@ -15,6 +15,9 @@
       & .title {
         color: $green;
         @include title-line-height;
+        & .stuff{
+          display: none;
+        }
       }
       & .description {
         color: $white;

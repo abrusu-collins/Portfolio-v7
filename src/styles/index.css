@@ -166,6 +166,9 @@ nav ul {
   font-size: 47px;
   font-family: agrandir, "Manrope", sans-serif;
 }
+.hero > div > div .title .stuff {
+  display: none;
+}
 .hero > div > div .description {
   color: #fcfeff;
   margin: 30px 0;
@@ -583,6 +586,12 @@ footer > p {
   }
 }
 @media screen and (max-width: 376px) {
+  .hero > div > div .title .products {
+    display: none;
+  }
+  .hero > div > div .title .stuff {
+    display: inline;
+  }
   .testimonials .left-infinite {
     width: 900%;
     animation: scroll-left-responsive3 25s ease-in-out infinite alternate;
