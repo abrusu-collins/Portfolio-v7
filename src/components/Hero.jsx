@@ -6,11 +6,8 @@ function Hero() {
     <div className="hero" id="hero">
       <div>
         <div>
-          <p className="title">
-            Front-end engineer building cool{" "}
-            <span className="products">products</span>
-            <span className="stuff">stuff</span>
-          </p>
+          <p className="title">Front-end engineer building cool products</p>
+          <p className="title stuff">Front-end engineer building cool stuff</p>
           <p className="description">
             Hi, I&apos;m <span>Abrusu Collins</span>, a computer Science
             graduate and a Front End Engineer based in Accra, Ghana. I love

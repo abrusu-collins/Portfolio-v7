@@ -283,12 +283,10 @@
     & > div {
       & > div {
         & .title {
-          & .products {
-            display: none;
-          }
-          & .stuff {
-            display: inline;
-          }
+          display: none;
+        }
+        & .stuff {
+          display: block;
         }
       }
     }
