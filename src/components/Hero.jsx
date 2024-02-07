@@ -6,7 +6,7 @@ function Hero() {
     <div className="hero" id="hero">
       <div>
         <div>
-          <p className="title">Front-end engineer building cool products</p>
+          <p className="title">Full-Stack engineer building cool products</p>
           <p className="title stuff">Front-end engineer building cool stuff</p>
           <p className="description">
             Hi, I&apos;m <span>Collins Abrusu</span>, a computer Science
