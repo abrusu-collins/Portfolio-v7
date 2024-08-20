@@ -1,8 +1,8 @@
 @mixin header($size, $line_height){
   font-size:$size;
-  font-family: circular_bold;
+  font-family: goBold;
   line-height: $line_height;
-  color: $black;
+  color: $white;
 }
 @mixin primary_button($background, $color) {
   text-decoration: none;

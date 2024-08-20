@@ -1,19 +1,14 @@
 <script lang="ts">
+import Hero from './components/Home/Hero.vue';
+
 export default {
-  name: " App"
+  name: " App",
+  components:{Hero}
 }
 </script>
 
 <template>
-  <div>
-    <p>
-      Hi
-    </p>
-  </div>
+<Hero />
 </template>
 
-<style scoped lang="scss">
-div p {
-  color: red;
-}
-</style>
+<style scoped lang="scss"></style>
