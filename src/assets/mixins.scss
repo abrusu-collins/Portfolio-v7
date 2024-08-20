@@ -1,0 +1,33 @@
+@mixin header($size, $line_height){
+  font-size:$size;
+  font-family: circular_bold;
+  line-height: $line_height;
+  color: $black;
+}
+@mixin primary_button($background, $color) {
+  text-decoration: none;
+  background-color: $background;
+  color: $color;
+  padding: 12px 50px;
+  display: inline-block;
+}
+@mixin double_gridder($gap, $left_fraction, $right_fraction) {
+  display: grid;
+  grid-template-columns: $left_fraction $right_fraction;
+  gap: $gap;
+  margin: auto;
+}
+@mixin multiple_gridder($gap, $grid_number, $fraction) {
+  display: grid;
+  grid-template-columns: repeat($grid_number, $fraction);
+  gap: $gap;
+  margin: auto;
+}
+
+@mixin flex_base($align: null, $justify: null, $gap: null, $direction: null) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+  flex-direction: $direction;
+}
