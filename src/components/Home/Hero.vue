@@ -3,7 +3,8 @@
         <div class="name_and_title">
             <div class="name">
                 <span v-for="(letter, i) in splitter('Collins ')" :key='`${letter}${i}`' class="name_letters">{{ letter
-                    }}</span> &nbsp;
+                    }}</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
                 <span v-for="(letter, i) in splitter('abrusu')" :key='`${i}${letter}`' class="name_letters">{{ letter
                     }}</span>
             </div>
@@ -11,6 +12,17 @@
             <p class="back" ref="back">back-end</p>
             <p class="full" ref="full">full-stack</p>
 
+        </div>
+
+
+        <div class="sub_hero">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa? Id veniam obcaecati, aliquid,
+                aliquam repudiandae consequuntur harum quidem ea consequatur numquam cum qui nemo molestias tenetur
+                animi doloremque? Repellendus. </p>
+            <img src="../../../public/images/vector1.svg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa? Id veniam obcaecati, aliquid,
+                aliquam repudiandae consequuntur harum quidem ea consequatur numquam cum qui nemo molestias tenetur
+                animi doloremque? Repellendus. </p>
         </div>
     </div>
 </template>
@@ -40,18 +52,18 @@ export default defineComponent({
             console.log(nameLetters);
             timeline.to(nameLetters, {
                 y: 0,
-                stagger: 0.02,
+                stagger: 0.045,
                 ease: "expo.inOut",
                 duration: 1,
             }).to(front, {
-                x: "30%",
-                y: "-60%",
+                x: "0%",
+                y: "-40%",
                 opacity: 1,
                 ease: "expo.inOut",
                 duration: 1,
             }).to(back, {
-                x: "-30%",
-                y: "-30%",
+                x: "0%",
+                y: "-50%",
                 opacity: 1,
                 ease: "expo.inOut",
                 duration: 1,
@@ -119,7 +131,7 @@ export default defineComponent({
             overflow: hidden;
 
             & span {
-                @include header(160px, 1);
+                @include header(172.8px, 1);
                 transition: color 0.5s ease-in-out;
                 overflow: hidden;
                 transform: translateY(110%);
@@ -132,6 +144,14 @@ export default defineComponent({
         }
     }
 
-
+    & .sub_hero {
+        width: 80%;
+        @include flex_base(center, center, 3rem, null);
+        margin: 170px auto 0 auto;
+        & img{
+            width: 20%;
+            /* background: red; */
+        }
+    }
 }
 </style>
