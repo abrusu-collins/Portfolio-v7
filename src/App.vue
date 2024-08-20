@@ -1,14 +1,19 @@
 <script lang="ts">
+import { defineComponent } from 'vue';
 import Hero from './components/Home/Hero.vue';
+import Projects from './components/Home/Projects.vue';
 
-export default {
-  name: " App",
-  components:{Hero}
-}
+export default defineComponent({
+  name: 'App',
+  components: { Hero, Projects },
+});
 </script>
 
 <template>
-<Hero />
+  <div>
+    <Hero />
+    <Projects />
+  </div>
 </template>
 
 <style scoped lang="scss"></style>

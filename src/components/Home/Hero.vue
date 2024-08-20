@@ -19,7 +19,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa? Id veniam obcaecati, aliquid,
                 aliquam repudiandae consequuntur harum quidem ea consequatur numquam cum qui nemo molestias tenetur
                 animi doloremque? Repellendus. </p>
-            <img src="../../../public/images/vector1.svg" alt="">
+            <img src="/images/vector1.svg" alt="" ref="vector_img">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa? Id veniam obcaecati, aliquid,
                 aliquam repudiandae consequuntur harum quidem ea consequatur numquam cum qui nemo molestias tenetur
                 animi doloremque? Repellendus. </p>
@@ -47,9 +47,21 @@ export default defineComponent({
             const front = this.$refs.front as HTMLParagraphElement;
             const back = this.$refs.back as HTMLParagraphElement;
             const full = this.$refs.full as HTMLParagraphElement;
+            const vectorImg = this.$refs.vector_img as HTMLImageElement;
+            const hero = this.$refs.hero as HTMLDivElement;
             const timeline = gsap.timeline();
-
-            console.log(nameLetters);
+            gsap.to(vectorImg, {
+                rotate: "660deg",
+                ease: "none",
+                duration: 6,
+                scrollTrigger: {
+                    trigger: hero,
+                    start: "top 20%",
+                    end: "bottom 90%",
+                    scrub: 1,
+                    pin: true,
+                },
+            });
             timeline.to(nameLetters, {
                 y: 0,
                 stagger: 0.045,
@@ -82,11 +94,10 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .hero {
-    margin: 200px auto 20px auto;
+    margin: 170px auto 20px auto;
 
     & .name_and_title {
         width: 80%;
-        /* background-color: red; */
         position: relative;
         margin: auto;
 
@@ -146,9 +157,10 @@ export default defineComponent({
 
     & .sub_hero {
         width: 80%;
-        @include flex_base(center, center, 3rem, null);
+        @include flex_base(center, center, 4rem, null);
         margin: 170px auto 0 auto;
-        & img{
+
+        & img {
             width: 20%;
             /* background: red; */
         }
