@@ -1,6 +1,6 @@
 <template>
     <div class="hero">
-        <div class="name_and_title">
+        <div class="name_and_title container">
             <div class="name">
                 <span v-for="(letter, i) in splitter('Collins ')" :key='`${letter}${i}`' class="name_letters">{{ letter
                     }}</span>
@@ -15,7 +15,7 @@
         </div>
 
 
-        <div class="sub_hero">
+        <div class="sub_hero container">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, culpa? Id veniam obcaecati, aliquid,
                 aliquam repudiandae consequuntur harum quidem ea consequatur numquam cum qui nemo molestias tenetur
                 animi doloremque? Repellendus. </p>
