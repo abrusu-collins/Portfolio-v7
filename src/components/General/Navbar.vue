@@ -35,9 +35,21 @@ export default {
     },
     methods: {
         getTime() {
-
             setInterval(() => {
-                this.time = moment(new Date()).format("HH:mm:ss a");
+                const now = new Date();
+                const options: Intl.DateTimeFormatOptions = {
+                    timeZone: 'Africa/Accra',
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false
+                };
+                const formatter = new Intl.DateTimeFormat('en-US', options);
+                const formattedTime = formatter.format(now);
+                this.time = moment(formattedTime).format("HH:mm:ss a");
             }, 1000);
         }
         ,
