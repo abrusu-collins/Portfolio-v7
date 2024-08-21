@@ -56,7 +56,7 @@ export default defineComponent({
                 duration: 6,
                 scrollTrigger: {
                     trigger: hero,
-                    start: "top 20%",
+                    start: "top 0%",
                     end: "bottom 90%",
                     scrub: 1,
                     pin: true,
@@ -86,6 +86,7 @@ export default defineComponent({
                 ease: "expo.inOut",
                 duration: 1,
             })
+
         }
 
     }
@@ -94,7 +95,7 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .hero {
-    margin: 170px auto 20px auto;
+    margin: 100px auto 20px auto;
 
     & .name_and_title {
         width: 80%;
@@ -163,6 +164,7 @@ export default defineComponent({
         & img {
             width: 20%;
             /* background: red; */
+            rotate: 180deg;
         }
     }
 }
