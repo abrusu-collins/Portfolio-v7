@@ -4,7 +4,7 @@
             <p class="initla">ca<span>.</span> </p>
 
             <div class="gh_time">
-                <img src="../../../public/images/gha.webp" alt="">
+                <img src="/images/gha.webp" alt="">
                 <p class="time">{{ time }} </p>
 
             </div>
@@ -64,7 +64,7 @@ nav {
     /* background: red; */
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000000;
     border-bottom: 0.4px solid $grey_line;
 
     & .nav_inner {
