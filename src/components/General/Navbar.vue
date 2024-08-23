@@ -59,6 +59,7 @@ export default {
 
 <style lang="scss" scoped>
 nav {
+    font-size: 16px;
     backdrop-filter: blur(20px);
     /* height: 10vh; */
     /* background: red; */

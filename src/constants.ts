@@ -1,0 +1,1 @@
+export const skillsHeader:string ="I bring ideas to life by handling every aspect of development, from concept  to completion."

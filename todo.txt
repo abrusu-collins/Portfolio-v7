@@ -5,3 +5,7 @@ Ghana flag with time
 Use adinkra icons for page transitions
 Name behind image parallax ///////
 add scroll
+
+sounds on click
+
+sound on open and close navbar

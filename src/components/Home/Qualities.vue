@@ -1,10 +1,14 @@
 <template>
     <div class="qualities">
-        <p>
-             <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, officia. Facere provident architecto
-            veritatis -->
-        
-            I bring ideas to life by handling every aspect of development, from concept  to completion.</p>
+        <div class="split_container" ref="split_container">
+            <span v-for="(word, i) in splitByWord(skillsHeader)" :key='`${word}${i}`' class="split_word"
+                ref="split_word">
+                <span>
+                    {{ word }}&nbsp;
+                </span>
+            </span>
+
+        </div>
 
         <div class="works">
             <img class="backdrop_image_front" src="/images/frontend.svg" alt="">
@@ -13,8 +17,6 @@
 
             <div class="frontend">
                 <img src="/images/frontend.svg" alt="">
-                <!-- <img class="backdrop_image_front" src="/images/frontend.svg" alt=""> -->
-
                 <p class="title">
                     Front-end
                 </p>
@@ -26,8 +28,6 @@
             </div>
             <div class="backend">
                 <img src="/images/backend.svg" alt="">
-                <!-- <img class="backdrop_image_back" src="/images/backend.svg" alt=""> -->
-
                 <p class="title">
                     Back-end
                 </p>
@@ -40,8 +40,6 @@
             </div>
             <div class="fullstack">
                 <img src="/images/fullstack.svg" alt="">
-                <!-- <img class="backdrop_image_full" src="/images/fullstack.svg" alt=""> -->
-
                 <p class="title">
                     Full-stack
                 </p>
@@ -60,9 +58,44 @@
 </template>
 
 <script lang="ts">
-export default {
-    name: "Qualities"
-}
+import { defineComponent } from 'vue';
+import { skillsHeader } from '../../constants';
+import { splitByWord } from '../../utils/utils';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+export default defineComponent({
+    name: "Qualities",
+    mounted() {
+        this.moveWordsUp();
+    },
+    methods: {
+        splitByWord,
+        moveWordsUp() {
+            const splitContainer = this.$refs.split_container as HTMLDivElement;
+            const words = gsap.utils.toArray(".split_word span");
+            gsap.to(words, {
+                y: 0,
+                ease: "expo.inOut",
+                // duration: 100,
+                stagger: 0.02,
+                scrollTrigger: {
+                    trigger: splitContainer,
+                    start: "top 60%",
+                    end: "bottom 90%",
+                    scrub: 1,
+                    pin: true,
+                },
+            });
+
+        }
+    },
+    data() {
+        return {
+            skillsHeader,
+        }
+    }
+})
 </script>
 
 <style lang="scss" scoped>
@@ -71,9 +104,23 @@ export default {
     width: 80%;
     margin: auto;
 
-    &>p {
-        /* text-align: center; */
-        @include header(70px, 100px);
+    & .split_container {
+        overflow: hidden;
+        line-height: 1;
+
+        & .split_word {
+
+            line-height: 1;
+            overflow: hidden;
+            display: inline-block;
+
+            &>span {
+                @include header(70px, 100px);
+                transform: translateY(150%);
+                display: inline-block;
+
+            }
+        }
     }
 
     & .works {
@@ -83,7 +130,6 @@ export default {
 
         &>div {
             backdrop-filter: blur(20px);
-            /* background-color: red; */
             border: 1px solid $grey_line;
             padding: 20px;
             border-radius: 8px;
@@ -98,15 +144,6 @@ export default {
                 margin: 17px 0;
                 @include header(23px, 20px);
             }
-
-            /* & .backdrop_image_front {
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                z-index: -100;
-                width: 40%;
-                transform: translate(-30%, 40%);
-            } */
         }
 
         &>img {
@@ -127,22 +164,25 @@ export default {
             bottom: 0;
             transform: translate(30%, 40%);
         }
+
         & .backdrop_image_back {
             top: 0;
             transform: translate(100%, -40%);
         }
     }
 
-    & .book_call{
+    & .book_call {
         @include primary_button($grey_line, $white);
         width: 100%;
         margin-top: 100px;
         padding: 100px 0;
-        /* @include header(10px, 100px); */
         font-size: 100px;
-  font-family: goBold;
-text-align: center;
-border-radius: 10px;
+        font-family: goBold;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: inset 0 0 10px $grey_text;
+        /* box-shadow: inset 0 0 10px rgb(63, 58, 58); */
+        /* box-shadow: inset 0 0 10px rgb(68, 68, 68); */
     }
 
 }
